@@ -1,0 +1,41 @@
+@import "../../../../styles/variable";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+  }
+
+  .navigate {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+    .link {
+      a {
+        padding-right: 45px;
+        color: #212121;
+
+        @media (max-width: $mediaMaxWidth1100px) {
+          padding-right: 25px;
+        }
+      }
+    }
+
+    .button {
+      cursor: pointer;
+      font-weight: 600;
+      background: #608af5;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 18px;
+      letter-spacing: 0.055em;
+    }
+
+    @media (max-width: $mediaMaxWidth1100px) {
+      font-size: 20px;
+    }
+  }
+}
