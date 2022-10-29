@@ -20,20 +20,34 @@ module.exports = {
         blue: "#4581F6",
         navy: "#002265",
         black: "#07253C",
-        darkBlue: "#14279B",
+        darkCornflower: "#14279B",
+        cornflower: "#608AF5",
         darkGray: "#082032",
         midGray: '#212121'
+      },
+      letterSpacing: {
+        tightest: '0.005em',
+        normal: '0.055em',
+        wider: '0.015em',
+        widest: '0.205em'
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
             color: theme("colors.darkGray"),
             "h1": {
-              color: theme("colors.navy")
+              color: theme("colors.navy"),
+              letterSpacing: theme('letterSpacing.tightest')
             },
             "h2": {
-              color: theme("colors.midGray")
-            }
+              color: theme("colors.midGray"),
+
+            },
+
+            button: {
+              background: theme("colors.cornflower")
+            },
+            letterSpacing: theme('letterSpacing.normal'),
           }
         },
         dark: {
@@ -44,5 +58,4 @@ module.exports = {
       })
     }
   },
-  plugins: [require('@tailwindcss/typography')]
 };

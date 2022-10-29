@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: "https://alexmangir.dev",
   siteRepo: "https://github.com/Sasha95/alexmangir.dev",
   avatarImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1662912164/self_wa3t88.jpg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1667041968/avatar.jpg",
   mainImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1666809641/MainImage_nqkrik.svg",
   frontendImage:
