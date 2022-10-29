@@ -1,9 +1,18 @@
+import siteMetadata from "@/data/siteMetadata";
+import Image from "next/image";
+
 export const Footer = () => {
   return (
-    <div className="relative">
-      {/* <footer className="fixed bottom-0 left-0 top-0 right-0">
-        <Image src={siteMetadata.footerImage} alt={"footer"} fill priority />
-      </footer> */}
-    </div>
+    <footer className="relative flex">
+      <Image
+        src={siteMetadata.footerImage}
+        alt={"footer"}
+        sizes={"100vw"}
+        width={0}
+        height={0}
+        style={{ inset: "auto", height: "unset", width: "100%" }}
+        priority
+      />
+    </footer>
   );
 };

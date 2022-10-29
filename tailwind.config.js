@@ -31,19 +31,13 @@ module.exports = {
         wider: '0.015em',
         widest: '0.205em'
       },
+      boxShadow: {
+        '3xl': '0px 5px 26px 5px rgba(0, 0, 0, 0.17)',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
             color: theme("colors.darkGray"),
-            "h1": {
-              color: theme("colors.navy"),
-              letterSpacing: theme('letterSpacing.tightest')
-            },
-            "h2": {
-              color: theme("colors.midGray"),
-
-            },
-
             button: {
               background: theme("colors.cornflower")
             },

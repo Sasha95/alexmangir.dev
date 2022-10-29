@@ -2,8 +2,7 @@ const siteMetadata = {
   title: "Alexandr Mangir - full-stack engineer, writer, creative developer.",
   author: "Alexandr Mangir",
   headerTitle: "Alexandr Mangir's Portfolio",
-  description:
-    "I'm Alexandr. I'm a senior front end and mobile developer. Welcome to my corner of the internet. I'm glad you're here!",
+  description: "I'm a senior front end and mobile developer",
   language: "en-us",
   siteUrl: "https://alexmangir.dev",
   siteRepo: "https://github.com/Sasha95/alexmangir.dev",
