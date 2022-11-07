@@ -42,7 +42,7 @@ export function Container({ children }: Props) {
         <meta name="twitter:image" content={meta.imageUrl} />
       </Head>
       <main
-        className={`flex flex-col mx-auto max-w-6xl justify-center px-4 bg-white dark:bg-dark prose prose-lg dark:prose-dark relative`}
+        className={`flex flex-col mx-auto max-w-6xl justify-center px-4 dark:bg-dark prose prose-lg dark:prose-dark relative`}
       >
         <PageTransition>{children}</PageTransition>
       </main>

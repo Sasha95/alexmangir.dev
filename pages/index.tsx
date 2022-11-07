@@ -11,13 +11,6 @@ export default function Home() {
     <>
       <Container>
         <Navbar />
-        {/* <Image
-          alt="background"
-          src={siteMetadata.backgroundImage}
-          className={"fixed"}
-          sizes="100vw"
-          fill
-        /> */}
         <Content />
         <Additional />
         <Portfolio />
