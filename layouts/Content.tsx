@@ -5,13 +5,13 @@ export const Content = () => {
   return (
     <div className="mt-10 relative flex justify-between">
       <div className="mt-10 max-w-xl">
-        <h1 className="text-navy text-3xl tracking-widest leading-[3rem]">
+        <h1 className="text-5xl tracking-tightest leading-[4.5rem]">
           I'm Alexandr
         </h1>
-        <h1 className="text-navy text-4xl tracking-normal font-semibold leading-[38px]	">
+        <h1 className="text-5xl tracking-tightest font-semibold leading-[3.25rem]	mt-3">
           {siteMetadata.description}
         </h1>
-        <h4>
+        <h4 className="leading-9 text-2xl tracking-wider mt-8">
           Front-End devel oper based in Moldova, Chisinau I’am coding with a
           clean and beautiful problem solving in mind.
         </h4>

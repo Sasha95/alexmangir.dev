@@ -15,7 +15,7 @@ export const Additional = () => {
         >
           <CardPassion
             alt="front-end"
-            description="(React, NextJS, Typescript)"
+            description="React, NextJS, Typescript"
             work="Front-end"
             image={siteMetadata.frontendImage}
           />
@@ -27,7 +27,7 @@ export const Additional = () => {
         >
           <CardPassion
             alt="Mobile"
-            description="(React Native, Java, Swift)"
+            description="React Native, Java, Swift"
             work="Mobile"
             image={siteMetadata.mobileImage}
           />
@@ -39,9 +39,9 @@ export const Additional = () => {
         >
           <CardPassion
             alt="ML"
-            description="(Tensorflow, PyTorch, Theano)"
+            description="Tensorflow, PyTorch, Theano"
             work="ML"
-            image={siteMetadata.backendImage}
+            image={siteMetadata.mlImage}
           />
         </Card>
       </div>

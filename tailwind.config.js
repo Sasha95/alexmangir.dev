@@ -1,5 +1,6 @@
 const colors = require("tailwindcss/colors");
 const defaultTheme = require("tailwindcss/defaultTheme");
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   content: [
@@ -23,13 +24,9 @@ module.exports = {
         montserrat: ["Montserrat", ...defaultTheme.fontFamily.mono],
       },
       colors: {
-        blue: "#4581F6",
-        navy: "#002265",
-        black: "#07253C",
+        blue: "#3ba1fa",
         darkCornflower: "#14279B",
-        cornflower: "#608AF5",
-        darkGray: "#082032",
-        midGray: '#212121'
+        cornflower: "#3B90FA"
       },
       letterSpacing: {
         tightest: '0.005em',
@@ -43,11 +40,6 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme("colors.darkGray"),
-            button: {
-              background: theme("colors.cornflower")
-            },
-            letterSpacing: theme('letterSpacing.normal'),
           }
         },
         dark: {
@@ -58,4 +50,14 @@ module.exports = {
       })
     }
   },
+  plugins: [
+    plugin(({ addBase, theme }) => {
+      addBase({
+        'html': {
+          color: theme('colors.darkCornflower'),
+          tracking: theme('letterSpacing.normal')
+        },
+      });
+    }),
+  ],
 };

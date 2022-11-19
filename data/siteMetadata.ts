@@ -9,33 +9,34 @@ const siteMetadata = {
   avatarImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1667041968/avatar.jpg",
   mainImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666809641/MainImage_nqkrik.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668845640/heroImg_tlg7i9.svg",
   frontendImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/front-dev_dtr2ev.svg",
-  backendImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/back-dev_vrkvlg.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668845754/frontend_yxhwoo.svg",
+  mlImage:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668845755/ml_m4g9m4.svg",
   mobileImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/mobile-dev_ptgbec.svg",
-  emojiOne:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/emojione_e-mail_a5evir.svg",
-  sendPay:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/SendPay_l2gywv.png",
-  eCommerce:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822305/e-commerce_o6b8sw.png",
-  beatsLearning:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822304/Edtech_u73plz.png",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668845754/mobile_somqzc.svg",
+  illustrate:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846067/illustrate_spe2z5.png",
+  wisent:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/wisent_qexbkg.svg",
+  react:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/react_jjb4eq.svg",
+  everact:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/everact_rvcnpk.svg",
+
   githubImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822303/git_t9db7x.svg",
-  instagramImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822303/insta_hxa0hy.svg",
-  emailImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822303/email_i5urtl.svg",
-  phoneImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666822303/phone_ik53au.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/github_dygmjl.svg",
+  twitterImage:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/twitter_b2hsqt.svg",
+  facebookImage:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/facebook_ka9tvo.svg",
+  linkedinImage:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/linkedin_lg3ppv.svg",
   backgroundImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1666822303/Background_ecpm5v.svg",
   footerImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1666809650/footer_gkd0xz.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668846889/footer_cvdbom.svg",
   socialBanner:
     "https://res.cloudinary.com/alexmangir/image/upload/v1663012091/default-social-image_n2259u.png",
 
@@ -45,6 +46,7 @@ const siteMetadata = {
   twitterHandle: "@css_prime",
   codepen: "https://codepen.io/alexmangir",
   linkedin: "https://www.linkedin.com/in/alexmag/",
+  facebook: "https://www.facebook.com/alex.mangir.3/",
   newsletter: "https://www.getrevue.co/profile/alexmangir",
   resume: "/static/mangir_resume.pdf",
   snippets:
