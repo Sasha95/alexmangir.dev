@@ -3,27 +3,21 @@ import { SwiperSlide, Swiper, SwiperProps } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import { ReactElement } from "react";
+import { ReactElement, ReactNode } from "react";
 
 type Props = {
-  slide1: ReactElement;
-  slide2: ReactElement;
-  slide3: ReactElement;
-  rest?: SwiperProps;
+  children: ReactNode;
 };
 
-export const SwiperElement = ({ slide1, slide2, slide3, ...rest }: Props) => {
+export const SwiperElement = ({ children }: Props) => {
   return (
     <Swiper
       pagination={{
         clickable: true,
       }}
       modules={[Pagination]}
-      {...rest}
     >
-      <SwiperSlide>{slide1}</SwiperSlide>
-      <SwiperSlide>{slide2}</SwiperSlide>
-      <SwiperSlide>{slide3}</SwiperSlide>
+      {children}
     </Swiper>
   );
 };

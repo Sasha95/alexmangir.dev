@@ -24,7 +24,31 @@ const siteMetadata = {
     "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/react_jjb4eq.svg",
   everact:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/everact_rvcnpk.svg",
-
+  dex: "https://res.cloudinary.com/alexmangir/image/upload/v1668870126/dex_dphjma.svg",
+  corridor:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/Corridor_EN_jlcxcs.png",
+  ihelp:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/ihelp_usqe9h.svg",
+  pik: "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/pik_zqzc5r.svg",
+  crmWhatsApp:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/crmWatsapp_n5v3ff.svg",
+  luxxy:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/luxxy_jhjai3.svg",
+  nokia:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/nokia_ueoglg.svg",
+  samocat:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668870820/samocat_rjjf9i.svg",
+  prettier:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668872021/prettier_jpkbjd.svg",
+  vscode:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668872022/vscode_knhfms.svg",
+  about:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668872021/about_hwkssi.svg",
+  ts: "https://res.cloudinary.com/alexmangir/image/upload/v1668873066/ts_kz9mjc.svg",
+  sharp:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668975880/icons8-.net-framework_dy1pwn.svg",
+  resumeImg:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1668872022/resume_xgpgw6.svg",
   githubImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/github_dygmjl.svg",
   twitterImage:
