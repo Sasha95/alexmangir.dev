@@ -26,7 +26,7 @@ export const Education = () => {
             TRANSNISTRIAN STATE UNIVERSITY
           </h4>
           <p className="text-base leading-5 mt-5">
-            Bachelor's degree/Applied Mathematics 4.8
+            Bachelor&prime;s degree/Applied Mathematics 4.8
           </p>
           <p className="text-base leading-5 mt-3.5">2013 - 2017</p>
         </div>
