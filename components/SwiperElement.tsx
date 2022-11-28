@@ -1,9 +1,9 @@
 import { Pagination } from "swiper";
-import { SwiperSlide, Swiper, SwiperProps } from "swiper/react";
+import {  Swiper } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import { ReactElement, ReactNode } from "react";
+import {  ReactNode } from "react";
 
 type Props = {
   children: ReactNode;

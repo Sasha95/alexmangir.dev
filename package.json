@@ -14,7 +14,8 @@
     "framer-motion": "^7.6.7",
     "next": "^13.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "@cld-apis/types": "^0.1.6",
