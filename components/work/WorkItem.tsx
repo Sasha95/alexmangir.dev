@@ -26,7 +26,7 @@ export const WorkItem = ({
 }: Props) => {
   return (
     <>
-      <div className="flex items-center justify-around pt-[52px] w-full">
+      <div className="flex items-center justify-around w-full">
         <WorkElement
           caption="The company"
           items={[

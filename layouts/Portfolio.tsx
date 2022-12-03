@@ -24,7 +24,6 @@ export const Portfolio = () => {
           clickable: true,
         }}
         slidesPerView={1}
-        spaceBetween={13}
         className={"shadow-3xl rounded-xl flex justify-center w-full bg-white"}
         modules={[Pagination]}
       >

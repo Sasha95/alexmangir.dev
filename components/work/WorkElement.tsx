@@ -10,7 +10,7 @@ type Props = {
 export const WorkElement = ({ items, caption }: Props) => {
   return (
     <div className="max-w-[232px] flex flex-col max-h-[526px]">
-      <h3 className="text-3xl leading-10 tracking-normal font-medium text-center">
+      <h3 className="text-3xl leading-10 tracking-normal font-medium text-center pt-[52px]">
         {caption}
       </h3>
       <Swiper
