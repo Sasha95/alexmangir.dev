@@ -48,7 +48,7 @@ const siteMetadata = {
   sharp:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668975880/icons8-.net-framework_dy1pwn.svg",
   resumeImg:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668872022/resume_xgpgw6.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1670066538/resume_miha0b.svg",
   githubImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/github_dygmjl.svg",
   twitterImage:

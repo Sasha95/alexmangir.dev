@@ -1,4 +1,5 @@
 import { Additional } from "layouts/Additional";
+import { Cards } from "layouts/Cards";
 import { Contact } from "layouts/Contact";
 import { Container } from "layouts/Container";
 import { Content } from "layouts/Content";
@@ -14,6 +15,7 @@ export default function Home() {
         <Content />
         <Additional />
         <Portfolio />
+        <Cards />
         <Contact />
       </Container>
       <Footer />
