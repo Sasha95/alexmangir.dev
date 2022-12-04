@@ -4,12 +4,14 @@ import siteMetadata from "@/data/siteMetadata";
 
 import { Education } from "../components/Education";
 import { workExperience } from "@/data/work-experience";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useRef } from "react";
 
 export const Portfolio = () => {
+  const swiperRef = useRef<SwiperRef | null>(null);
   return (
     <div className="mt-40">
       <Caption title1={"My"} title2={"Portfolio"} />
@@ -22,10 +24,15 @@ export const Portfolio = () => {
       <Swiper
         pagination={{
           clickable: true,
+          el: ".swiper-custom-pagination",
+          type: "bullets",
+          bulletClass: "swiper-pagination-bullet",
+          bulletActiveClass: "swiper-pagination-bullet-active",
         }}
         slidesPerView={1}
         className={"shadow-3xl rounded-xl flex justify-center w-full bg-white"}
         modules={[Pagination]}
+        ref={swiperRef}
       >
         <SwiperSlide>
           <WorkItem
@@ -55,6 +62,7 @@ export const Portfolio = () => {
           />
         </SwiperSlide>
       </Swiper>
+      <div className="swiper-custom-pagination flex justify-center mt-14" />
     </div>
   );
 };

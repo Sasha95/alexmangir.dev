@@ -24,3 +24,32 @@ a {
   box-sizing: border-box;
 }
 
+.swiper-pagination-bullet {
+  height: 20px !important;
+  width: 20px !important;
+  background: #147CFE !important;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet {
+  margin-left: 40px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(59, 144, 250, 0.5);
+}
+
+.swiper-button-prev {
+  left: 50% !important;
+  top: 0 !important;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  
+}
+.swiper-button-next {
+  left: 50% !important;
+  bottom: 8% !important;
+  top: unset !important;
+  transform: rotate(90deg);
+  transform-origin: left center;
+
+}

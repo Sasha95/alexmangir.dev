@@ -38,7 +38,7 @@ export const WorkItem = ({
           ]}
         />
         <WorkElement caption="The job title" items={functions} />
-        <WorkElement caption="The project" items={projects} />
+        <WorkElement caption="The project" items={projects} showArrows />
       </div>
     </>
   );

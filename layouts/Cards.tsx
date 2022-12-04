@@ -28,7 +28,7 @@ export const Cards = () => {
           />
         </div>
         <p className="font-cornflower text-xs mb-3.5 mt-8">
-          Here`s what I use daily.
+          Here`s what I use daily
         </p>
       </Card>
       <Card title="RESUME">

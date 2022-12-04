@@ -10,8 +10,7 @@ export const workExperience = {
     ],
     projects: [
       {
-        title: "React Software Engineer Senior",
-        projectName: "Everact.io",
+        title: "Everact.io",
         src: siteMetadata.everact,
         description: "https://everact.io",
       },
@@ -23,48 +22,27 @@ export const workExperience = {
         title: "React Software Engineer Senior",
         src: siteMetadata.react,
       },
-      {
-        title: "React Native Software Engineer Middle",
-        src: siteMetadata.react,
-      },
-      {
-        title: "React Native Software Engineer Middle",
-        src: siteMetadata.react,
-      },
-      {
-        title: "React Software Engineer Middle",
-        src: siteMetadata.react,
-      },
-      {
-        title: "React Software Engineer Middle",
-        src: siteMetadata.react,
-      },
     ],
     projects: [
       {
-        title: "React Software Engineer Senior",
-        projectName: "DEX job",
+        title: "DEX job",
         src: siteMetadata.dex,
         description: "https://job.dex-it.ru",
       },
       {
-        title: "React Native Software Engineer Middle",
-        projectName: "Samocat Sharing",
+        title: "Samocat Sharing",
         src: siteMetadata.samocat,
       },
       {
-        title: "React Native Software Engineer Middle",
-        projectName: "Luxxy",
+        title: "Luxxy",
         src: siteMetadata.luxxy,
       },
       {
-        title: "React Software Engineer Middle",
-        projectName: "Nokia",
+        title: "Nokia",
         src: siteMetadata.nokia,
       },
       {
-        title: "React Software Engineer Middle",
-        projectName: "PIK",
+        title: "PIK",
         src: siteMetadata.pik,
       },
     ],
@@ -82,13 +60,11 @@ export const workExperience = {
     ],
     projects: [
       {
-        title: "Lead React Software Engineer Senior",
-        projectName: "Corridor",
+        title: "Corridor",
         src: siteMetadata.corridor,
       },
       {
-        title: "ASP NET Developer",
-        projectName: "CRMWhatsApp",
+        title: "CRMWhatsApp",
         src: siteMetadata.crmWhatsApp,
       },
     ],
