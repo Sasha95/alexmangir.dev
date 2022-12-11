@@ -43,12 +43,12 @@ const siteMetadata = {
   vscode:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668872022/vscode_knhfms.svg",
   about:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668872021/about_hwkssi.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1670066538/resume_miha0b.svg",
   ts: "https://res.cloudinary.com/alexmangir/image/upload/v1668873066/ts_kz9mjc.svg",
   sharp:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668975880/icons8-.net-framework_dy1pwn.svg",
   resumeImg:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1670066538/resume_miha0b.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1670762087/about_nb5bcy.svg",
   githubImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668846633/github_dygmjl.svg",
   twitterImage:

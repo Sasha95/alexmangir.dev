@@ -12,9 +12,10 @@ module.exports = {
   important: true,
   theme: {
     screens: {
-      sm: "480px",
+      xs: "380px",
+      sm: "428px",
       md: "768px",
-      lg: "976px",
+      lg: "970px",
       xl: "1440px",
     },
     extend: {

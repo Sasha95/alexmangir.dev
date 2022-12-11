@@ -4,9 +4,9 @@ import siteMetadata from "@/data/siteMetadata";
 
 export const Contact = () => {
   return (
-    <div className="mt-40">
-      <Caption title1={"Contact"} title2={"My"} />
-      <div className="flex w-full justify-between">
+    <div className="lg:mt-40 md:mt-20 mt-14">
+      <Caption title1={"Contact"} title2={"Me"} />
+      <div className="flex w-full justify-around md:mt-16">
         <ContactItem
           href={siteMetadata.github}
           src={siteMetadata.githubImage}

@@ -4,13 +4,14 @@ import classnames from "classnames";
 import { Swiper, SwiperProps, SwiperRef, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import { forwardRef, ReactElement, Ref } from "react";
-import { SwiperEvents } from "swiper/types";
+import classNames from "classnames";
 
 type Props = {
   caption: string;
   items: { src: string; title: string; description?: ReactElement | string }[];
   showArrows?: boolean;
   className?: string;
+  classImgName?: string;
   classNameContainer?: string;
 } & SwiperProps;
 
@@ -21,17 +22,18 @@ const WorkElementCard = (
     showArrows = false,
     className,
     classNameContainer,
+    classImgName,
     ...props
   }: Props,
   ref: Ref<SwiperRef>
 ) => (
   <div
     className={classnames(
-      "max-w-[350px] h-[500px] flex flex-col py-[54px]",
+      "md:max-w-[350px] md:h-[500px] flex flex-col md:py-[54px] py-5",
       classNameContainer
     )}
   >
-    <h3 className="text-3xl leading-10 tracking-normal font-medium text-center max-w=[250px]">
+    <h3 className="text-base xs:text-lg leading-6 lg:text-3xl md:text-2xl md:leading-10 tracking-normal font-medium text-center">
       {caption}
     </h3>
     <Swiper
@@ -49,22 +51,32 @@ const WorkElementCard = (
           <SwiperSlide key={index}>
             <div
               key={index}
-              className="flex flex-col items-center h-full m-auto max-w-[250px]"
+              className="flex flex-col items-center h-full md:m-auto"
             >
               <div
-                className={"relative w-[250px] h-[236px] overflow-hidden my-4"}
+                className={classNames(
+                  "relative md:px-5 md:h-[236px] overflow-hidden md:my-4 my-1.5 flex",
+                  classImgName
+                )}
               >
                 <Image
                   alt={item.title}
                   src={item.src}
-                  fill
-                  className={className}
+                  sizes="100vw"
+                  width="0"
+                  height="0"
+                  className={classNames(
+                    "w-full h-auto min-w-[111px] min-h-[104px]",
+                    className
+                  )}
                 />
               </div>
               <div className="h-25">
-                <p className="text-2xl leading-9 text-center">{item.title}</p>
+                <p className="text-xs xs:text-sm leading-4 md:text-2xl md:leading-9 text-center">
+                  {item.title}
+                </p>
                 {item.description && (
-                  <p className="text-lg leading-5 mt-2.5 text-center font-[Inter]">
+                  <p className="text-lg text-[10px] xs:text-xs leading-3 md:text-sm md:leading-5 md:mt-2.5 mt-1.5 text-center font-[Inter]">
                     {item.description}
                   </p>
                 )}
