@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { Navigation } from "swiper";
+import classnames from "classnames";
 import { Swiper, SwiperProps, SwiperRef, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import { forwardRef, ReactElement, Ref } from "react";
+import { SwiperEvents } from "swiper/types";
 
 type Props = {
   caption: string;
@@ -13,10 +15,22 @@ type Props = {
 } & SwiperProps;
 
 const WorkElementCard = (
-  { items, caption, showArrows = false, className, ...props }: Props,
+  {
+    items,
+    caption,
+    showArrows = false,
+    className,
+    classNameContainer,
+    ...props
+  }: Props,
   ref: Ref<SwiperRef>
 ) => (
-  <div className={"max-w-[350px] h-[500px] flex flex-col py-[54px]"}>
+  <div
+    className={classnames(
+      "max-w-[350px] h-[500px] flex flex-col py-[54px]",
+      classNameContainer
+    )}
+  >
     <h3 className="text-3xl leading-10 tracking-normal font-medium text-center max-w=[250px]">
       {caption}
     </h3>

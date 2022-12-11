@@ -44,8 +44,7 @@ export const Portfolio = () => {
               </>
             }
             companySrc={siteMetadata.wisent}
-            functions={workExperience.wisent.functions}
-            projects={workExperience.wisent.projects}
+            projects={workExperience.wisent}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -59,8 +58,7 @@ export const Portfolio = () => {
               </>
             }
             companySrc={siteMetadata.dex}
-            functions={workExperience.dex.functions}
-            projects={workExperience.dex.projects}
+            projects={workExperience.dex}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -73,8 +71,7 @@ export const Portfolio = () => {
               </>
             }
             companySrc={siteMetadata.ihelp}
-            functions={workExperience.ihelp.functions}
-            projects={workExperience.ihelp.projects}
+            projects={workExperience.ihelp}
           />
         </SwiperSlide>
       </Swiper>
