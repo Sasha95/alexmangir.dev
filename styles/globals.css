@@ -1,7 +1,4 @@
 @tailwind base;
-
-
-
 @tailwind components;
 @tailwind utilities;
 
@@ -25,6 +22,7 @@ a {
 }
 
 .swiper-pagination-bullet {
+  margin: 0 !important;
   height: 20px !important;
   width: 20px !important;
   background: #147CFE !important;
@@ -38,18 +36,25 @@ a {
   background: rgba(59, 144, 250, 0.5);
 }
 
-.swiper-button-prev {
-  left: 50% !important;
-  top: 0 !important;
-  transform: rotate(90deg);
-  transform-origin: left center;
-  
-}
 .swiper-button-next {
-  left: 50% !important;
-  bottom: 8% !important;
-  top: unset !important;
-  transform: rotate(90deg);
-  transform-origin: left center;
+  background-image: url('https://res.cloudinary.com/alexmangir/image/upload/v1670715027/arrow_gneoua.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
 
+.swiper-button-prev {
+  background-image: url('https://res.cloudinary.com/alexmangir/image/upload/v1670715027/arrow_gneoua.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  top: 44% !important;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  display: none;
 }

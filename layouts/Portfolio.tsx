@@ -15,7 +15,7 @@ export const Portfolio = () => {
   return (
     <div className="mt-40">
       <Caption title1={"My"} title2={"Portfolio"} />
-      <div className="flex w-full justify-between	">
+      <div className="flex w-full justify-between">
         <Education />
       </div>
       <h2 className="text-3xl	leading-10 tracking-normal mt-24 mb-7">
@@ -30,14 +30,19 @@ export const Portfolio = () => {
           bulletActiveClass: "swiper-pagination-bullet-active",
         }}
         slidesPerView={1}
-        className={"shadow-3xl rounded-xl flex justify-center w-full bg-white"}
+        className={"shadow-3xl rounded-xl flex justify-center bg-white"}
         modules={[Pagination]}
         ref={swiperRef}
       >
         <SwiperSlide>
           <WorkItem
             companyName="Wisent Group"
-            companyDescription="dec. 2020 - present Chisinau, Moldova"
+            companyDescription={
+              <>
+                Dec 2020 - present
+                <br /> Chisinau, Moldova
+              </>
+            }
             companySrc={siteMetadata.wisent}
             functions={workExperience.wisent.functions}
             projects={workExperience.wisent.projects}
@@ -46,7 +51,13 @@ export const Portfolio = () => {
         <SwiperSlide>
           <WorkItem
             companyName="DexTechnology"
-            companyDescription="Tiraspol, Stînga Nistrul, Moldova Dec 2017 - Apr 2019"
+            companyDescription={
+              <>
+                Dec 2017 - Apr 2019
+                <br />
+                Tiraspol, Moldova
+              </>
+            }
             companySrc={siteMetadata.dex}
             functions={workExperience.dex.functions}
             projects={workExperience.dex.projects}
@@ -55,7 +66,12 @@ export const Portfolio = () => {
         <SwiperSlide>
           <WorkItem
             companyName="IHelp"
-            companyDescription="Tiraspol, Stînga Nistrul, Moldova Dec 2017 - Apr 2019"
+            companyDescription={
+              <>
+                Dec 2017 - Apr 2019
+                <br /> Tiraspol, Moldova
+              </>
+            }
             companySrc={siteMetadata.ihelp}
             functions={workExperience.ihelp.functions}
             projects={workExperience.ihelp.projects}

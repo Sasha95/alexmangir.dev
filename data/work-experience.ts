@@ -4,7 +4,7 @@ export const workExperience = {
   wisent: {
     functions: [
       {
-        title: "React Software Engineer Senior",
+        title: "React Engineer Senior",
         src: siteMetadata.react,
       },
     ],
@@ -19,7 +19,7 @@ export const workExperience = {
   dex: {
     functions: [
       {
-        title: "React Software Engineer Senior",
+        title: "React Engineer Senior",
         src: siteMetadata.react,
       },
     ],
@@ -50,7 +50,7 @@ export const workExperience = {
   ihelp: {
     functions: [
       {
-        title: "Lead React Software Engineer Senior",
+        title: "Lead React Engineer Senior",
         src: siteMetadata.react,
       },
       {
