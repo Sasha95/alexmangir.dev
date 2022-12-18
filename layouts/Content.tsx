@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Content = () => {
   return (
-    <div className="md:mt-10 lg:mt-24 xl:mt-20 mt-7 relative flex justify-between flex-col-reverse md:flex-row items-center">
+    <div className="md:mt-10 lg:mt-24 xl:mt-20 mt-7 flex justify-between flex-col-reverse md:flex-row items-center">
       <div className="mt-10 xs:mt-5 max-w-xl">
         <h1 className="md:text-5xl text-2xl sm:text-3xl tracking-tightest leading-10">
           I&apos;m Alexandr
@@ -16,14 +16,16 @@ export const Content = () => {
           clean and beautiful problem solving in mind.
         </h4>
       </div>
-      <Image
-        src={"/heroImg.svg"}
-        alt={"main image"}
-        sizes="100vw"
-        width="0"
-        height="0"
-        className="w-full h-auto max-w-lg lg:max-w-[287px] xs:max-w-[260px] sm:max-w-[290px] xl:max-w-lg xl:w-full"
-      />
+      <div className="relative w-full h-auto max-w-lg lg:max-w-[287px] xs:max-w-[260px] sm:max-w-[290px] xl:max-w-lg xl:w-full">
+        <Image
+          src={siteMetadata.mainImage}
+          alt={"main image"}
+          sizes="100vw"
+          width="0"
+          height="0"
+          className="w-full h-auto"
+        />
+      </div>
     </div>
   );
 };
