@@ -17,7 +17,7 @@ export const Content = () => {
         </h4>
       </div>
       <Image
-        src={siteMetadata.mainImage}
+        src={siteMetadata.wisent}
         alt={"main image"}
         sizes="100vw"
         width="0"
