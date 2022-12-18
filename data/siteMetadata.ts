@@ -9,7 +9,7 @@ const siteMetadata = {
   avatarImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1667041968/avatar.jpg",
   mainImage:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668845640/heroImg_tlg7i9.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1671401981/heroImg_2_aw3xrl.svg",
   frontendImage:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668845754/frontend_yxhwoo.svg",
   mlImage:
