@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <nav className="flex justify-between items-center mt-6">
-      <div className="flex items-center">
+      <div className="flex items-center mr-auto">
         <h2 className="font-bold lg:text-2xl sm:text-xl text-lg leading-7 tracking-widest">
           alex
         </h2>

@@ -12,10 +12,10 @@ export const Drawer = ({ isOpen, setOpen, children }: Props) => {
     <div>
       <main
         className={classNames(
-          "fixed overflow-hidden z-10 bg-gray-900 bg-opacity-25 inset-0 transform ease-in-out",
+          "fixed overflow-hidden z-10 bg-gray-900 bg-opacity-25 bg-transparent inset-0 transform ease-in-out",
           isOpen
             ? "transition-opacity opacity-100"
-            : "transition-all ease-in-out bg-opacity-0 duration-500 -translate-y-full"
+            : "transition-transform duration-500 -translate-y-full bg-opacity-0"
         )}
       >
         <section
