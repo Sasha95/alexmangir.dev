@@ -16,24 +16,30 @@ export const Cards = () => {
               sizes="100vw"
               width="0"
               height="0"
-              className={"w-full max-w-[50px] md:max-w-[40px] h-auto"}
+              className={
+                "w-full max-w-[50px] md:max-w-[40px] h-auto lg:max-w-full lg:max-h-full lg:w-[50px] lg:h-[50px] xl:h-[63px] xl:w-[63px]"
+              }
             />
             <Image
               alt="typescript"
               src={siteMetadata.ts}
               width="0"
               height="0"
-              className={"w-full max-w-[50px] md:max-w-[40px] mx-5 h-auto"}
+              className={
+                "w-full max-w-[50px] md:max-w-[40px] mx-5 h-auto lg:max-w-full lg:max-h-full lg:w-[50px] lg:h-[50px] xl:h-[63px] xl:w-[63px]"
+              }
             />
             <Image
               alt="prettier"
               src={siteMetadata.prettier}
               width="0"
               height="0"
-              className={"w-full max-w-[50px] md:max-w-[40px] h-auto"}
+              className={
+                "w-full max-w-[50px] md:max-w-[40px] h-auto lg:max-w-full lg:max-h-full lg:w-[50px] lg:h-[50px] xl:h-[63px] xl:w-[63px]"
+              }
             />
           </div>
-          <p className="text-cornflower font-semibold text-xs mb-3.5 mt-8 md:mt-2">
+          <p className="text-cornflower font-semibold text-xs xl:text-lg mb-3.5 mt-8 md:mt-1.5 xl:mt-8 xl:mb-3.5">
             Here`s what I use daily
           </p>
         </Card>
@@ -44,7 +50,7 @@ export const Cards = () => {
             sizes="100vw"
             width="0"
             height="0"
-            className="relative w-full h-auto max-w-[122px] md:max-w-[80px] max-h-[110px] md:max-h-[71px]"
+            className="relative w-full h-auto max-w-[122px] md:w-[80px] max-h-[110px] md:max-h-full md:max-w-full md:h-[79px] lg:h-[110px] lg:w-[122px] xl:w-[162px] xl:h-[147px] md:mb-3"
           />
         </Card>
         <Card title="ABOUT ME">
@@ -54,7 +60,7 @@ export const Cards = () => {
             sizes="100vw"
             width="0"
             height="0"
-            className="relative w-full h-auto max-w-[106px] md:max-w-[88px] max-h-[102px] md:max-h-[80px] md:mb-3 md:-mt-1"
+            className="relative w-full h-auto max-w-[106px] md:max-w-[88px] max-h-[102px] md:max-h-[80px] lg:h-[110px] lg:w-[122px] xl:w-[162px] xl:h-[147px] lg:max-w-fit lg:max-h-fit md:mb-3 md:-mt-1.5"
           />
         </Card>
       </div>

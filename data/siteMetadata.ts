@@ -63,6 +63,8 @@ const siteMetadata = {
     "https://res.cloudinary.com/alexmangir/image/upload/v1668846889/footer_cvdbom.svg",
   socialBanner:
     "https://res.cloudinary.com/alexmangir/image/upload/v1663012091/default-social-image_n2259u.png",
+  burgerIcon:
+    "https://res.cloudinary.com/alexmangir/image/upload/v1671396735/humburger_xslfkw.svg",
 
   email: "mailto:sasha982025@gmail.com",
   github: "https://github.com/Sasha95",

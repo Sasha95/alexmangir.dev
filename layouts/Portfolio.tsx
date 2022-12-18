@@ -13,12 +13,12 @@ import { useRef } from "react";
 export const Portfolio = () => {
   const swiperRef = useRef<SwiperRef | null>(null);
   return (
-    <div className="xl:mt-40 md:mt-20 sm:mt-16 mt-14">
+    <div className="xl:mt-28 md:mt-20 sm:mt-16 mt-14">
       <Caption title1={"My"} title2={"Portfolio"} />
-      <div className="flex w-full justify-between -mt-3 md:mt-0">
+      <div className="flex w-full justify-between -mt-3 lg:-mt-7 md:mt-0">
         <Education />
       </div>
-      <h2 className="xl:text-3xl text-lg sm:text-xl sm:leading-7 sm:font-normal leading-5 xl:leading-6 font-bold text-center tracking-normal mt-14 mb-7">
+      <h2 className="xl:text-3xl text-lg sm:text-xl md:text-3xl md:font-semibold xl:text-start xl:mb-5 sm:leading-7 sm:font-normal leading-5 xl:leading-6 font-bold text-center tracking-normal mt-14 mb-7 lg:mb-14 xl:mt-32">
         Work Experience
       </h2>
       <Swiper

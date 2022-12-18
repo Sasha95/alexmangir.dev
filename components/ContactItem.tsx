@@ -18,9 +18,9 @@ export const ContactItem = ({ title, src, href }: Props) => (
       sizes="100vw"
       width="0"
       height="0"
-      className="w-full h-auto max-xs:w-[55px] max-xs:h-[54px] md:max-w-[96px] md:max-h-[92px] xl:max-w-[165px] xl:max-h-[160px] lg:max-w-[132px] lg:max-h-[126px]"
+      className="max-xs:w-[55px] max-xs:h-[54px] xs:w-[55px] xs:h-[54px] md:w-[96px] md:h-[92px] lg:h-[126px] lg:w-[132px] xl:max-w-[165px] xl:max-h-[160px] lg:max-w-[132px] lg:max-h-[126px]"
     />
-    <h2 className="lg:mt-8 font-medium lg:text-2xl letterSpacing-normal text-sm leading-5 mt-2.5">
+    <h2 className="lg:mt-8 font-medium md:text-2xl xl:text-4xl letterSpacing-normal text-sm leading-5 mt-2.5">
       {title}
     </h2>
   </a>

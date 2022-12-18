@@ -17,7 +17,7 @@ export const CardPassion = ({ work, description, image, alt }: Props) => {
         width="0"
         height="0"
         className={
-          "px-16 md:px-12 max-xs:p-0 relative w-full h-auto xl:max-w-[225px] xl:max-h-[159px] lg:max-w-[152px] lg:max-h-[104px]"
+          "px-16 md:px-12 lg:px-0 max-xs:p-0 relative w-full h-auto xl:max-w-[225px] xl:max-h-[159px] lg:max-w-[152px] lg:max-h-[104px]"
         }
       />
       <div className="flex mt-4">
@@ -28,7 +28,7 @@ export const CardPassion = ({ work, description, image, alt }: Props) => {
           Developer
         </p>
       </div>
-      <p className="xl:text-lg xl:leading-7 lg:text-sm lg:leading-5 md:text-xs md:leading-5 text-base sm:text-lg leading-6">
+      <p className="xl:text-lg xl:leading-7 lg:text-sm lg:leading-5 md:text-xs md:leading-5 text-base sm:text-lg leading-6 lg:mt-2">
         {description}
       </p>
     </>

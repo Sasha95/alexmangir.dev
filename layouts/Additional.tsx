@@ -9,7 +9,7 @@ export const Additional = () => {
   return (
     <div className="xl:mt-28 md:mt-20 mt-14 sm:mt-16">
       <Caption title1={"Additional"} title2={"passions"} />
-      <div className="md:flex w-full justify-between	gap-x-4 hidden">
+      <div className="md:flex w-full justify-between	gap-x-4 xl:gap-x-12 hidden">
         <AdditionalCard>
           <CardPassion
             alt="frontend"

@@ -29,7 +29,7 @@ const WorkElementCard = (
 ) => (
   <div
     className={classnames(
-      "md:max-w-[350px] md:h-[500px] flex flex-col md:py-[54px] py-5",
+      "md:max-w-[350px] md:max-h-[408px] lg:max-h-[529px] xl:h-[526px] lg:justify-between flex flex-col md:py-[54px] py-5 md:pt-6 md:pb-8 xl:py-14",
       classNameContainer
     )}
   >
@@ -51,11 +51,11 @@ const WorkElementCard = (
           <SwiperSlide key={index}>
             <div
               key={index}
-              className="flex flex-col items-center h-full md:m-auto"
+              className="flex flex-col items-center h-full md:m-auto md:h-[280px] lg:h-[346px] lg:w-[231px] xl:w-[250px]"
             >
               <div
                 className={classNames(
-                  "relative md:px-5 md:h-[236px] overflow-hidden md:my-4 my-1.5 flex",
+                  "relative md:px-5 md:h-[170px] lg:h-[205px] xl:w-full xl:px-0 xl:p-0 lg:px-0 overflow-hidden md:my-4 my-1.5 flex",
                   classImgName
                 )}
               >
@@ -71,12 +71,12 @@ const WorkElementCard = (
                   )}
                 />
               </div>
-              <div className="h-25">
+              <div className="h-25 lg:mt-4">
                 <p className="text-xs xs:text-sm leading-4 md:text-2xl md:leading-9 text-center">
                   {item.title}
                 </p>
                 {item.description && (
-                  <p className="text-lg text-[10px] xs:text-xs leading-3 md:text-sm md:leading-5 md:mt-2.5 mt-1.5 text-center font-[Inter]">
+                  <p className="text-lg text-[10px] xs:text-xs xl:text-base leading-3 md:text-sm md:leading-5 lg:mt-2 md:mt-0 mt-1.5 text-center font-[Inter]">
                     {item.description}
                   </p>
                 )}
