@@ -31,18 +31,18 @@ export const Navbar = () => {
       </div>
       <Drawer isOpen={isOpen} setOpen={setOpen}>
         <div>
-          <h2 className="text-2xl md:text-xl lg:text-2xl font-normal mx-11 md:mx-4 lg:mx-5 xl:mx-11 cursor-pointer hover:text-blue">
+          <h2 className="text-center text-2xl md:text-xl lg:text-2xl font-normal mx-11 md:mx-4 lg:mx-5 xl:mx-11 cursor-pointer hover:text-blue">
             About
           </h2>
-          <h2 className="text-2xl md:text-xl lg:text-2xl font-normal cursor-pointer  hover:text-blue">
+          <h2 className="text-center text-2xl md:text-xl lg:text-2xl font-normal cursor-pointer  hover:text-blue">
             Passions
           </h2>
-          <h2 className="text-2xl md:text-xl lg:text-2xl font-normal mx-11 md:mx-4 lg:mx-5 xl:mx-11 cursor-pointer  hover:text-blue">
+          <h2 className="text-center text-2xl md:text-xl lg:text-2xl font-normal mx-11 md:mx-4 lg:mx-5 xl:mx-11 cursor-pointer  hover:text-blue">
             Portfolio
           </h2>
-          <button className="rounded-lg bg-cornflower py-2 px-4 lg:py-2.5 lg:px-5 font-semibold text-white text-2xl md:text-base lg:text-2xl cursor-pointer hover:bg-blue">
+          <h2 className="text-center text-2xl md:text-xl lg:text-2xl font-normal mx-11 md:mx-4 lg:mx-5 xl:mx-11 cursor-pointer  hover:text-blue">
             Contact me
-          </button>
+          </h2>
         </div>
       </Drawer>
       <Image
