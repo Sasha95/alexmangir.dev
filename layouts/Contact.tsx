@@ -1,6 +1,6 @@
 import { Caption } from "@/components/Caption";
-import { ContactItem } from "@/components/ContactItem";
 import siteMetadata from "@/data/siteMetadata";
+import { ContactItem } from "modules/contact/ContactItem";
 
 export const Contact = () => {
   return (
