@@ -9,7 +9,7 @@ type Props = {
 
 export const CardPassion = ({ work, description, image, alt }: Props) => {
   return (
-    <>
+    <div className="bg-white shadow-3xl rounded-xl w-full xl:min-w-[346px] xl:max-h-[289px] py-7 md:py-4 lg:pt-7 xl:py-5 lg:pb-5 md:px-3 px-6 flex flex-col items-center">
       <Image
         alt={alt}
         src={image}
@@ -31,6 +31,6 @@ export const CardPassion = ({ work, description, image, alt }: Props) => {
       <p className="xl:text-lg xl:leading-7 lg:text-sm lg:leading-5 md:text-xs md:leading-5 text-base sm:text-lg leading-6 lg:mt-2">
         {description}
       </p>
-    </>
+    </div>
   );
 };
