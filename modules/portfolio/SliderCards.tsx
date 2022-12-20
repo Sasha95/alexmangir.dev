@@ -1,5 +1,5 @@
 import { SwiperCards } from "@/components/SwiperCards";
-import { WorkItem } from "@/components/work/WorkItem";
+import { WorkItem } from "modules/portfolio/work/WorkItem";
 import { portfolio } from "@/data/portfolio";
 import { useRef } from "react";
 import { Pagination } from "swiper";

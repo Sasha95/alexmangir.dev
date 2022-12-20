@@ -1,8 +1,8 @@
 import { Caption } from "@/components/Caption";
-import { WorkItem } from "@/components/work/WorkItem";
+import { WorkItem } from "modules/portfolio/work/WorkItem";
 import siteMetadata from "@/data/siteMetadata";
 
-import { Education } from "../components/Education";
+import { Education } from "../modules/portfolio/education/Education";
 import { workExperience } from "@/data/work-experience";
 import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
