@@ -1,5 +1,5 @@
 import { Card } from "@/components/Card";
-import { SwiperCards } from "@/components/swiper-cards/SwiperCards";
+import { SwiperCards } from "@/components/SwiperCards";
 import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 import { SwiperSlide } from "swiper/react";

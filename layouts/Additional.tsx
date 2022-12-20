@@ -2,8 +2,8 @@ import { Caption } from "@/components/Caption";
 import { AdditionalCard } from "@/components/AdditionalCard";
 import { CardPassion } from "@/components/CardPassion";
 import siteMetadata from "@/data/siteMetadata";
-import { SwiperCards } from "@/components/swiper-cards/SwiperCards";
 import { SwiperSlide } from "swiper/react";
+import { SwiperCards } from "@/components/SwiperCards";
 
 export const Additional = () => {
   return (
