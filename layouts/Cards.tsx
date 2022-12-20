@@ -65,7 +65,10 @@ export const Cards = () => {
         </Card>
       </div>
       <div className="block md:hidden">
-        <SwiperCards>
+        <SwiperCards
+          bulletClass="swiper-pagination-bullet-sm"
+          swiperName="swiper-custom-pagination-card"
+        >
           <SwiperSlide>
             <Card title="TOOLBOX" className="shadow-none">
               <div className="flex justify-center w-full lg:mt-10 mt-2.5 md:mt-2">

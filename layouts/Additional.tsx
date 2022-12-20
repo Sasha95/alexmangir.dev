@@ -31,7 +31,11 @@ export const Additional = () => {
         />
       </div>
       <div className="block md:hidden">
-        <SwiperCards>
+        <SwiperCards
+          bulletClass="swiper-pagination-bullet-sm"
+          swiperName="swiper-custom-pagination-additional"
+          
+        >
           <SwiperSlide>
             <CardPassion
               alt="frontend"
