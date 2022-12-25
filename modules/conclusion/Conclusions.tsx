@@ -1,6 +1,7 @@
 import { Card } from "@/components/Card";
 import { SwiperCards } from "@/components/SwiperCards";
 import siteMetadata from "@/data/siteMetadata";
+import { useMediaQuery } from "hooks/use-media-query";
 import { SwiperSlide } from "swiper/react";
 import { ToolboxItem } from "./ToolboxItem";
 const toolboxItems = [
@@ -17,8 +18,11 @@ const toolboxItems = [
     src: siteMetadata.prettier,
   },
 ];
-type Props = {};
-export const Conclusions = ({}: Props) => {
+export const Conclusions = () => {
+  const match = useMediaQuery(980);
+  const matchLg = useMediaQuery(1440);
+  const gap = !matchLg ? "53px" : !match ? "35px" : "28px";
+
   return (
     <>
       <div className="md:flex w-full justify-between gap-x-4 xl:gap-x-12 hidden">

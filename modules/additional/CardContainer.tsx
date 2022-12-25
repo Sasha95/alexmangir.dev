@@ -1,3 +1,4 @@
+import { useMediaQuery } from "hooks/use-media-query";
 import { Fragment, ReactNode } from "react";
 import { SwiperSlide } from "swiper/react";
 import { SwiperCards } from "../../components/SwiperCards";
@@ -7,9 +8,12 @@ type Props = {
 };
 
 export const CardContainer = ({ cards }: Props) => {
+  const match = useMediaQuery(980);
+  const matchLg = useMediaQuery(1440);
+  const gap = !matchLg ? "53px" : !match ? "35px" : "28px";
   return (
     <>
-      <div className="md:flex w-full justify-between gap-x-4 xl:gap-x-12 hidden">
+      <div className="md:flex hidden" style={{ gap }}>
         {cards.map((child, index) => (
           <Fragment key={index}>{child}</Fragment>
         ))}

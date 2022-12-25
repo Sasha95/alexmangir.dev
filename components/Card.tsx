@@ -10,7 +10,7 @@ export const Card = ({ children, title, className }: Props) => {
   return (
     <div
       className={classNames(
-        "bg-white rounded-lg shadow-[0px_0px_17px_rgba(0,0,0,0.17)] rad pt-7 pb-6 sm:pt-9 sm:pb-6 md:py-3 w-full h-full md:h-auto flex flex-col justify-between items-center relative",
+        "bg-white rounded-lg shadow-3xl rad pt-7 pb-6 sm:pt-9 sm:pb-6 md:py-3 w-full h-full md:h-auto flex flex-col justify-between items-center relative",
         className
       )}
     >

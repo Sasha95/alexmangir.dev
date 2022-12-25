@@ -9,7 +9,7 @@ type Props = {
 
 export const CardPassion = ({ work, description, image, alt }: Props) => {
   return (
-    <div className="bg-white shadow-[0px_0px_17px_rgba(0,0,0,0.17)] rounded-xl w-full xl:min-w-[346px] xl:max-h-[289px] py-7 md:py-4 lg:pt-7 xl:py-5 lg:pb-5 md:px-3 px-6 flex flex-col items-center">
+    <div className="bg-white shadow-3xl rounded-xl w-full xl:min-w-[346px] xl:max-h-[289px] py-7 md:py-4 lg:pt-7 xl:py-5 lg:pb-5 md:px-3 px-6 flex flex-col items-center">
       <div className="relative">
         <Image
           alt={alt}
