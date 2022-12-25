@@ -33,7 +33,7 @@ const SwiperElement = ({
         }}
         spaceBetween={30}
         slidesPerView={1}
-        className={"shadow-xl rounded-xl bg-transparent flex justify-center"}
+        className={"p-4 -m-4 flex justify-center"}
         modules={[Pagination]}
         {...props}
       >
