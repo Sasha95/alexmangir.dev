@@ -23,7 +23,7 @@ export const CustomImage = ({
         sizes="100vw"
         width="0"
         height="0"
-        className={classNames("w-full h-auto", className)}
+        className={className}
         {...props}
       />
     </div>

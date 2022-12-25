@@ -14,7 +14,7 @@ export default function Home() {
         <Navbar />
         <Content />
         <Additional />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Cards />
         <Contact />
       </Container>
