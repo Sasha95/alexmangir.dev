@@ -75,14 +75,31 @@ a {
   gap: 0 28px;
 }
 
-@media screen and (max-width: 980px) {
+.contactText {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .contactText {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (min-width: 980px) {
   .card {
     gap: 0 36px;
+    margin-top: 24px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .card {
     gap: 0 36px;
+  }
+  .contactText {
+    font-size: 36px;
+    margin-top: 30px;
   }
 }

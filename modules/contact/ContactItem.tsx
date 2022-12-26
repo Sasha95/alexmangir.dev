@@ -15,7 +15,7 @@ export const ContactItem = ({ title, src, href }: Props) => (
     <div className="relative max-h-[160px] max-w-[166px]">
       <Image alt={title} src={src} fill className="relative" />
     </div>
-    <h2 className="font-medium md:text-2xl xl:text-4xl text-sm letterSpacing-normal leading-5 mt-2.5 md:mt-4 lg:mt-6 xl:mt-7">
+    <h2 className="font-medium letterSpacing-normal leading-5 contactText">
       {title}
     </h2>
   </a>
