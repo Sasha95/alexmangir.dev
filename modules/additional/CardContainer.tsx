@@ -9,7 +9,7 @@ type Props = {
 export const CardContainer = ({ cards }: Props) => {
   return (
     <>
-      <div className="md:flex w-full justify-between  gap-x-7 lg:gap-x-9 xl:gap-x-14  hidden">
+      <div className="md:flex w-full justify-between hidden card">
         {cards.map((child, index) => (
           <Fragment key={index}>{child}</Fragment>
         ))}

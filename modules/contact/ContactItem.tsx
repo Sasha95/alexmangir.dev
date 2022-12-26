@@ -9,18 +9,13 @@ export const ContactItem = ({ title, src, href }: Props) => (
   <a
     href={href}
     target={"_blank"}
-    className="flex flex-col items-center hover:text-blue"
+    className="flex flex-col gap-y-2.5 md:gap-y-4 lg:gap-y-6 xl:gap-y-7 items-center hover:text-blue"
     rel="noreferrer"
   >
-    <Image
-      alt={title}
-      src={src}
-      sizes="100vw"
-      width="0"
-      height="0"
-      className="max-xs:w-[55px] max-xs:h-[54px] xs:w-[55px] xs:h-[54px] md:w-[96px] md:h-[92px] lg:h-[126px] lg:w-[132px] xl:max-w-[165px] xl:max-h-[160px] lg:max-w-[132px] lg:max-h-[126px]"
-    />
-    <h2 className="lg:mt-8 font-medium md:text-2xl xl:text-4xl letterSpacing-normal text-sm leading-5 mt-2.5">
+    <div className="relative max-h-[160px] max-w-[166px]">
+      <Image alt={title} src={src} fill className="relative" />
+    </div>
+    <h2 className="font-medium md:text-2xl xl:text-4xl text-sm letterSpacing-normal leading-5 mt-2.5 md:mt-4 lg:mt-6 xl:mt-7">
       {title}
     </h2>
   </a>
