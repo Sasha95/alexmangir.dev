@@ -22,6 +22,7 @@ export const Cards = () => {
   return (
     <div className="xl:mt-24 md:mt-20 mt-12">
       <CardContainer
+        name="swiper-custom-pagination-cards"
         cards={[
           <Card title="TOOLBOX" key={0}>
             <div className="flex justify-center w-full mt-2.5 md:mt-2">

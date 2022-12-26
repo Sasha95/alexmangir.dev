@@ -16,7 +16,10 @@ export const Additional = () => {
   return (
     <div className="xl:mt-28 md:mt-20 mt-14 sm:mt-16">
       <Caption title1={"Additional"} title2={"passions"} />
-      <CardContainer cards={passionCards} />
+      <CardContainer
+        cards={passionCards}
+        name="swiper-custom-pagination-additional"
+      />
     </div>
   );
 };

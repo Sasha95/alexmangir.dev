@@ -4,9 +4,10 @@ import { SwiperCards } from "../../components/SwiperCards";
 
 type Props = {
   cards: ReactNode[];
+  name: string;
 };
 
-export const CardContainer = ({ cards }: Props) => {
+export const CardContainer = ({ cards, name }: Props) => {
   return (
     <>
       <div className="md:flex w-full justify-between hidden card">
@@ -17,7 +18,8 @@ export const CardContainer = ({ cards }: Props) => {
       <div className="block md:hidden">
         <SwiperCards
           bulletClass="swiper-pagination-bullet-sm"
-          swiperName="swiper-custom-pagination-additional"
+          swiperName={name}
+          className="flex justify-center mt-4"
         >
           {cards.map((child, index) => (
             <SwiperSlide key={index} className={"h-auto"}>
