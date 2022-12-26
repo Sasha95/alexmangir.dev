@@ -17,7 +17,7 @@ export const Card = ({ children, title, className }: Props) => {
       <h2 className="text-3xl md:text-xl lg:text-2xl xl:text-3xl xs:leading-10 font-medium">
         {title}
       </h2>
-      <>{children}</>
+      {children}
       <button className="rounded-lg bg-cornflower p-3 md:p-2 xl:py-3 xl:px-3.5 font-semibold text-white cursor-pointer text-xs md:text-[10px] hover:bg-blue mt-1.5">
         Click to see more
       </button>
