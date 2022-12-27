@@ -19,25 +19,25 @@ const siteMetadata = {
   illustrate:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668846067/illustrate_spe2z5.png",
   wisent:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/wisent_qexbkg.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073779/winset_fk0i8j.svg",
   react:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/react_jjb4eq.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073780/react_ijq8pj.svg",
   everact:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668856600/everact_rvcnpk.svg",
-  dex: "https://res.cloudinary.com/alexmangir/image/upload/v1668870126/dex_dphjma.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073778/everact_umhicj.svg",
+  dex: "https://res.cloudinary.com/alexmangir/image/upload/v1672074447/dex_qxckp2.svg",
   corridor:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/Corridor_EN_jlcxcs.png",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073778/corridor_q07ytg.svg",
   ihelp:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/ihelp_usqe9h.svg",
-  pik: "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/pik_zqzc5r.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073778/ihelp_gfurrn.svg",
+  pik: "https://res.cloudinary.com/alexmangir/image/upload/v1672073779/pik_galidv.svg",
   crmWhatsApp:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/crmWatsapp_n5v3ff.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073778/crm_fgvgxi.svg",
   luxxy:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/luxxy_jhjai3.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073780/luxxy_znu3jd.svg",
   nokia:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870819/nokia_ueoglg.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672074520/nokia_xqvse0.svg",
   samocat:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668870820/samocat_rjjf9i.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073780/samocat_kvhcbo.svg",
   prettier:
     "https://res.cloudinary.com/alexmangir/image/upload/v1668872021/prettier_jpkbjd.svg",
   vscode:
@@ -46,7 +46,7 @@ const siteMetadata = {
     "https://res.cloudinary.com/alexmangir/image/upload/v1670066538/resume_miha0b.svg",
   ts: "https://res.cloudinary.com/alexmangir/image/upload/v1668873066/ts_kz9mjc.svg",
   sharp:
-    "https://res.cloudinary.com/alexmangir/image/upload/v1668975880/icons8-.net-framework_dy1pwn.svg",
+    "https://res.cloudinary.com/alexmangir/image/upload/v1672073778/asp_nojg59.svg",
   resumeImg:
     "https://res.cloudinary.com/alexmangir/image/upload/v1670762087/about_nb5bcy.svg",
   githubImage:
