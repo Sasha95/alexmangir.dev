@@ -5,6 +5,7 @@ type Props = {
   src: string;
   title: string;
 };
+
 export const ContactItem = ({ title, src, href }: Props) => (
   <a
     href={href}

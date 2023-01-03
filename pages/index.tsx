@@ -4,20 +4,23 @@ import { Contact } from "layouts/Contact";
 import { Container } from "layouts/Container";
 import { Content } from "layouts/Content";
 import { Footer } from "layouts/Footer";
-import { Navbar } from "layouts/Navbar";
 import { Portfolio } from "layouts/Portfolio";
+import { Education } from "modules/education/Education";
+import { MainContainer } from "modules/main-container/MainContainer";
+import { Navbar } from "modules/navbar/Navbar";
 
 export default function Home() {
   return (
     <>
-      <Container>
+      <MainContainer>
         <Navbar />
-        <Content />
+        {/* <Content />
         <Additional />
-        {/* <Portfolio /> */}
+        <Education />
+        <Portfolio />
         <Cards />
-        <Contact />
-      </Container>
+        <Contact /> */}
+      </MainContainer>
       <Footer />
     </>
   );

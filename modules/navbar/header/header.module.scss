@@ -1,0 +1,27 @@
+@import "@styles/colors";
+@import "@styles/media-queries";
+
+.text {
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  .firstText {
+    @extend .text;
+    font-weight: 700;
+  }
+  .secondText {
+    @extend .text;
+    font-weight: normal;
+  }
+}
+
+.navbarContainer {
+  display: none;
+
+  @include md {
+    display: flex;
+    align-items: center;
+  }
+}

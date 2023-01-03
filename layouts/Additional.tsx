@@ -1,5 +1,5 @@
-import { Caption } from "@/components/Caption";
-import { CardPassion } from "@/components/CardPassion";
+import { Caption } from "@/components/caption/Caption";
+import { CardPassion } from "@/components/card-passion/CardPassion";
 import { CardContainer } from "modules/additional/CardContainer";
 import { passions } from "@/data/passions";
 

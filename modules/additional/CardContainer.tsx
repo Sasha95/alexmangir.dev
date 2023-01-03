@@ -1,6 +1,6 @@
 import { Fragment, ReactNode } from "react";
 import { SwiperSlide } from "swiper/react";
-import { SwiperCards } from "../../components/SwiperCards";
+import { SwiperCards } from "../../components/swiper-cards/SwiperCards";
 
 type Props = {
   cards: ReactNode[];

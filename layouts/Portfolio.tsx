@@ -1,11 +1,4 @@
-import { Caption } from "@/components/Caption";
-import { WorkItem } from "modules/portfolio/work/WorkItem";
-import siteMetadata from "@/data/siteMetadata";
-
-import { Education } from "../modules/portfolio/education/Education";
-import { workExperience } from "@/data/work-experience";
-import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { SwiperRef } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useRef } from "react";
@@ -13,15 +6,11 @@ import { useRef } from "react";
 export const Portfolio = () => {
   const swiperRef = useRef<SwiperRef | null>(null);
   return (
-    <div className="xl:mt-28 md:mt-20 sm:mt-16 mt-14">
-      <Caption title1={"My"} title2={"Portfolio"} />
-      <div className="flex w-full justify-between -mt-3 lg:-mt-7 md:mt-0">
-        <Education />
-      </div>
+    <>
       <h2 className="xl:text-3xl text-lg sm:text-xl md:text-3xl md:font-semibold xl:text-start xl:mb-5 sm:leading-7 sm:font-normal leading-5 xl:leading-6 font-bold text-center tracking-normal mt-14 mb-7 lg:mb-14 xl:mt-32">
         Work Experience
       </h2>
-      <Swiper
+      {/* <Swiper
         pagination={{
           clickable: true,
           el: ".swiper-custom-pagination",
@@ -75,7 +64,7 @@ export const Portfolio = () => {
           />
         </SwiperSlide>
       </Swiper>
-      <div className="swiper-custom-pagination flex justify-center mt-4 lg:mt-14 md:mt-8" />
-    </div>
+      <div className="swiper-custom-pagination flex justify-center mt-4 lg:mt-14 md:mt-8" /> */}
+    </>
   );
 };

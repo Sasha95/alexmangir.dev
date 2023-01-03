@@ -1,11 +1,11 @@
 import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 
-export const Education = () => {
+export const EducationHistory = () => {
   return (
     <div className="flex w-full justify-between relative">
       <div className="w-full">
-        <h2 className="md:text-3xl text-lg sm:text-xl leading-7 text-center md:text-start xl:leading-10 tracking-normal md:mt-1 w-full">
+        <h2 className="md:text-3xl text-lg sm:text-xl leading-7 text-center md:text-start lg:text-center xl:text-start xl:leading-10 tracking-normal md:mt-1 w-full">
           Education & Skills
         </h2>
         <div className="mt-8 md:mt-5 md:pb-5 xl:pb-12 pl-7 md:pl-5 lg:mt-7 relative pb-11">

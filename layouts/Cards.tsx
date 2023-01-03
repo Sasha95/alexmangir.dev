@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/card/Card";
 import siteMetadata from "@/data/siteMetadata";
 import { CardContainer } from "modules/additional/CardContainer";
 import { ToolboxItem } from "modules/conclusion/ToolboxItem";

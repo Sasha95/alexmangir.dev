@@ -1,4 +1,4 @@
-import { PageTransition } from "@/components/PageTransition";
+import { PageTransition } from "@/components/page-transition/PageTransition";
 import siteMetadata from "@/data/siteMetadata";
 import Head from "next/head";
 import { useRouter } from "next/router";

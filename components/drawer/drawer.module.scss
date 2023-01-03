@@ -1,0 +1,56 @@
+@import "@styles/colors";
+
+.mainContainer {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba($grey, 0.25);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.isOpen {
+    transition-property: opacity;
+    opacity: 1;
+  }
+  &.isClose {
+    background-color: rgba($grey, 0);
+    transition-property: transform;
+    transition-duration: 500ms;
+    transform: translateY(-100%);
+  }
+}
+
+.sectionContainer {
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100vw;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  &.isOpenSection {
+    transform: translateY(0);
+  }
+  &.isCloseSection {
+    transform: translateY(-100%);
+  }
+}
+
+.articleContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100%;
+  cursor: pointer;
+}

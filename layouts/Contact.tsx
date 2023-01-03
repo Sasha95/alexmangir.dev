@@ -1,4 +1,4 @@
-import { Caption } from "@/components/Caption";
+import { Caption } from "@/components/caption/Caption";
 import siteMetadata from "@/data/siteMetadata";
 import { ContactItem } from "modules/contact/ContactItem";
 
