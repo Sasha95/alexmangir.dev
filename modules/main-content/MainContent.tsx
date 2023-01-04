@@ -15,7 +15,12 @@ export const MainContent = () => {
         </h4>
       </div>
       <div className={styles.imgContainer}>
-        <Image src={mainImg} alt={"main image"} className={styles.img} />
+        <Image
+          src={mainImg}
+          alt={"main image"}
+          className={styles.img}
+          priority
+        />
       </div>
     </div>
   );

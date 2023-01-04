@@ -14,7 +14,7 @@ type Props = {
   className?: string;
 } & SwiperProps;
 
-const SwiperElement = ({
+export const SwiperCards = ({
   children,
   bulletClass,
   swiperName,
@@ -44,5 +44,3 @@ const SwiperElement = ({
     </>
   );
 };
-
-export const SwiperCards = forwardRef(SwiperElement);
