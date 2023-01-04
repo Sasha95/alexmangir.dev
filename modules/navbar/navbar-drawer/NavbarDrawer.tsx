@@ -2,7 +2,7 @@ import { Drawer } from "@/components/drawer/Drawer";
 import Image from "next/image";
 import { useState } from "react";
 import styles from "./navbar-drawer.module.scss";
-import Hamburger from "../../../public/assets/hamburger.svg";
+import Hamburger from "public/assets/hamburger.svg";
 
 export const NavbarDrawer = () => {
   const [isOpen, setOpen] = useState(false);

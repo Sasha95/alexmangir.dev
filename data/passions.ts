@@ -1,6 +1,6 @@
-import Ml from "../public/assets/ml.svg";
-import Mobile from "../public/assets/mobile.svg";
-import Front from "../public/assets/frontend.svg";
+import Ml from "public/assets/ml.svg";
+import Mobile from "public/assets/mobile.svg";
+import Front from "public/assets/frontend.svg";
 
 export const passions = [
   {

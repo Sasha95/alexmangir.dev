@@ -14,7 +14,7 @@ export function Container({ children }: Props) {
   const meta = {
     title: siteMetadata.title,
     description: siteMetadata.description,
-    imageUrl: "../public/assets/default-social-image.png",
+    imageUrl: "public/assets/default-social-image.png",
     twitterHandle: siteMetadata.twitterHandle,
   };
 

@@ -1,8 +1,8 @@
 import { workExperience } from "./work-experience";
 
-import IHelp from "../public/assets/ihelp.svg";
-import Dex from "../public/assets/dex.svg";
-import Wisent from "../public/assets/wisent.svg";
+import IHelp from "public/assets/ihelp.svg";
+import Dex from "public/assets/dex.svg";
+import Wisent from "public/assets/wisent.svg";
 
 export const portfolio = [
   {

@@ -2,10 +2,10 @@ import { Caption } from "@/components/caption/Caption";
 import siteMetadata from "@/data/siteMetadata";
 import { ContactItem } from "./contact-item/ContactItem";
 import styles from "./contact.module.scss";
-import Github from "../../public/assets/github.svg";
-import Twitter from "../../public/assets/twitter.svg";
-import Linkedin from "../../public/assets/linkedin.svg";
-import Facebook from "../../public/assets/facebook.svg";
+import Github from "public/assets/github.svg";
+import Twitter from "public/assets/twitter.svg";
+import Linkedin from "public/assets/linkedin.svg";
+import Facebook from "public/assets/facebook.svg";
 
 export const Contact = () => {
   return (

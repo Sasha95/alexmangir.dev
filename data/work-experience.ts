@@ -1,13 +1,13 @@
-import React from "../public/assets/react.svg";
-import Sharp from "../public/assets/sharp.svg";
-import Everact from "../public/assets/everact.svg";
-import Dex from "../public/assets/dex.svg";
-import Samocat from "../public/assets/samocat.svg";
-import Luxxy from "../public/assets/luxxy.svg";
-import Nokia from "../public/assets/nokia.svg";
-import Pik from "../public/assets/pik.svg";
-import Corridor from "../public/assets/corridor.svg";
-import Crm from "../public/assets/crm.svg";
+import React from "public/assets/react.svg";
+import Sharp from "public/assets/sharp.svg";
+import Everact from "public/assets/everact.svg";
+import Dex from "public/assets/dex.svg";
+import Samocat from "public/assets/samocat.svg";
+import Luxxy from "public/assets/luxxy.svg";
+import Nokia from "public/assets/nokia.svg";
+import Pik from "public/assets/pik.svg";
+import Corridor from "public/assets/corridor.svg";
+import Crm from "public/assets/crm.svg";
 
 export const workPositions = {
   react: {

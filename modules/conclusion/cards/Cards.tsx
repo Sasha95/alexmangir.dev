@@ -1,14 +1,13 @@
 import { CardContainer } from "@/components/card-container/CardContainer";
 import { Card } from "@/components/card/Card";
-import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 import styles from "./cards.module.scss";
 
-import VSCode from "../../../public/assets/vscode.svg";
-import Typescript from "../../../public/assets/ts.svg";
-import Prettier from "../../../public/assets/prettier.svg";
-import Resume from "../../../public/assets/resume.svg";
-import About from "../../../public/assets/about.svg";
+import VSCode from "public/assets/vscode.svg";
+import Typescript from "public/assets/ts.svg";
+import Prettier from "public/assets/prettier.svg";
+import Resume from "public/assets/resume.svg";
+import About from "public/assets/about.svg";
 
 const toolboxItems = [
   {

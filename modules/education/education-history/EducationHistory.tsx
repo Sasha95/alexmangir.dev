@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Illustrate from "../../../public/assets/illustrate.png";
+import Illustrate from "public/assets/illustrate.png";
 import styles from "./education-history.module.scss";
 
 export const EducationHistory = () => {

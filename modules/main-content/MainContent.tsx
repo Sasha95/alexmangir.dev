@@ -1,7 +1,7 @@
 import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 import styles from "./main-content.module.scss";
-import mainImg from "../../public/assets/main_img.svg";
+import mainImg from "public/assets/main_img.svg";
 
 export const MainContent = () => {
   return (
