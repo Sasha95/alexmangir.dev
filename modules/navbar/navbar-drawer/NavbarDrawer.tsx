@@ -1,8 +1,8 @@
 import { Drawer } from "@/components/drawer/Drawer";
-import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 import { useState } from "react";
 import styles from "./navbar-drawer.module.scss";
+import Hamburger from "../../../public/assets/hamburger.svg";
 
 export const NavbarDrawer = () => {
   const [isOpen, setOpen] = useState(false);
@@ -17,7 +17,7 @@ export const NavbarDrawer = () => {
         </div>
       </Drawer>
       <Image
-        src={siteMetadata.burgerIcon}
+        src={Hamburger}
         alt="burger"
         width={25}
         height={25}

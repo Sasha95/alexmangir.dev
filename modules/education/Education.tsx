@@ -1,11 +1,12 @@
 import { Caption } from "@/components/caption/Caption";
-import { EducationHistory } from "./EducationHistory";
+import { EducationHistory } from "./education-history/EducationHistory";
+import styles from "./education.module.scss";
 
 export const Education = () => {
   return (
-    <div className="xl:mt-28 md:mt-20 sm:mt-16 mt-14">
+    <div className={styles.container}>
       <Caption title1={"My"} title2={"Portfolio"} />
-      <div className="flex w-full justify-between -mt-3 lg:-mt-7 md:mt-0">
+      <div className={styles.history}>
         <EducationHistory />
       </div>
     </div>

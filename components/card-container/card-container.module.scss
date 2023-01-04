@@ -1,0 +1,25 @@
+@import "@styles/media-queries";
+
+.container {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  @include md {
+    display: flex;
+  }
+}
+
+.mobileContainer {
+  display: block;
+  .wrapper {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .slide {
+    height: auto;
+  }
+  @include md {
+    display: none;
+  }
+}

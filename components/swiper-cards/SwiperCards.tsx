@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { forwardRef, ReactNode } from "react";
 import classNames from "classnames";
+import styles from "./swiper-cards.module.scss";
 
 type Props = {
   children: ReactNode;
@@ -33,7 +34,7 @@ const SwiperElement = ({
         }}
         spaceBetween={30}
         slidesPerView={1}
-        className={"p-4 -m-4 flex justify-center"}
+        className={styles.container}
         modules={[Pagination]}
         {...props}
       >

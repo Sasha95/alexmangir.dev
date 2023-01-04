@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "./card-passion.module.scss";
 
 type Props = {
   work: string;
@@ -9,30 +10,15 @@ type Props = {
 
 export const CardPassion = ({ work, description, image, alt }: Props) => {
   return (
-    <div className="bg-white shadow-[0px_0px_17px_rgba(0,0,0,0.17)] rounded-xl w-full xl:min-w-[346px] xl:max-h-[289px] py-7 md:py-4 lg:pt-7 xl:py-5 lg:pb-5 md:px-3 px-6 flex flex-col items-center">
-      <div className="relative">
-        <Image
-          alt={alt}
-          src={image}
-          sizes="100vw"
-          width="0"
-          height="0"
-          className={
-            "px-16 md:px-12 lg:px-0 max-xs:p-0 relative w-full h-auto xl:max-w-[225px] xl:max-h-[159px] lg:max-w-[152px] lg:max-h-[104px]"
-          }
-        />
+    <div className={styles.container}>
+      <div className={styles.imgContainer}>
+        <Image alt={alt} src={image} className={styles.img} />
       </div>
-      <div className="flex mt-4">
-        <p className="font-semibold xl:text-2xl xl:leading-9 lg:text-base lg:leading-6 md:text-sm md:leading-5 text-2xl leading-8">
-          {work} &nbsp;
-        </p>
-        <p className="xl:text-2xl xl:leading-9 lg:text-base lg:leading-6 md:text-sm md:leading-5 text-2xl leading-8">
-          Developer
-        </p>
+      <div className={styles.descriptionContainer}>
+        <p className={styles.boldText}>{work} &nbsp;</p>
+        <p className={styles.text}>Developer</p>
       </div>
-      <p className="xl:text-lg xl:leading-7 lg:text-sm lg:leading-5 md:text-xs md:leading-5 text-base sm:text-lg leading-6 lg:mt-2">
-        {description}
-      </p>
+      <p className={styles.description}>{description}</p>
     </div>
   );
 };

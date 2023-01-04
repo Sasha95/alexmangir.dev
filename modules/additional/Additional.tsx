@@ -1,7 +1,8 @@
 import { Caption } from "@/components/caption/Caption";
 import { CardPassion } from "@/components/card-passion/CardPassion";
-import { CardContainer } from "modules/additional/CardContainer";
 import { passions } from "@/data/passions";
+import styles from "./additional.module.scss";
+import { CardContainer } from "../../components/card-container/CardContainer";
 
 export const Additional = () => {
   const passionCards = passions.map((pass, index) => (
@@ -14,7 +15,7 @@ export const Additional = () => {
     />
   ));
   return (
-    <div className="xl:mt-28 md:mt-20 mt-14 sm:mt-16">
+    <div className={styles.container}>
       <Caption title1={"Additional"} title2={"passions"} />
       <CardContainer
         cards={passionCards}

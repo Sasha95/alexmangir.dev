@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  margin-top: 1.75rem;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  margin-top: 2.5rem;
+  max-width: 36rem;
+  margin: 1.5rem 0;
+}
+
+.textName {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: normal;
+  margin: 0 0 1.75rem 0;
+}
+
+.textDescription {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.textAbout {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  max-width: 32rem;
+  height: auto;
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}

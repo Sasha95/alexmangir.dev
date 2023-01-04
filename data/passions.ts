@@ -1,22 +1,24 @@
-import siteMetadata from "./siteMetadata";
+import Ml from "../public/assets/ml.svg";
+import Mobile from "../public/assets/mobile.svg";
+import Front from "../public/assets/frontend.svg";
 
 export const passions = [
   {
     alt: "frontend",
     description: "React, NextJS, Typescript",
     work: "Frontend",
-    image: siteMetadata.frontendImage,
+    image: Front,
   },
   {
     alt: "Mobile",
     description: "React Native, Typescript",
     work: "Mobile",
-    image: siteMetadata.mobileImage,
+    image: Mobile,
   },
   {
     alt: "ML",
     description: "Tensorflow, Keras",
     work: "ML",
-    image: siteMetadata.mlImage,
+    image: Ml,
   },
 ];

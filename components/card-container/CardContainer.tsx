@@ -1,6 +1,7 @@
 import { Fragment, ReactNode } from "react";
 import { SwiperSlide } from "swiper/react";
-import { SwiperCards } from "../../components/swiper-cards/SwiperCards";
+import { SwiperCards } from "../swiper-cards/SwiperCards";
+import styles from "./card-container.module.scss";
 
 type Props = {
   cards: ReactNode[];
@@ -10,19 +11,19 @@ type Props = {
 export const CardContainer = ({ cards, name }: Props) => {
   return (
     <>
-      <div className="md:flex w-full justify-between hidden card">
+      <div className={styles.container}>
         {cards.map((child, index) => (
           <Fragment key={index}>{child}</Fragment>
         ))}
       </div>
-      <div className="block md:hidden">
+      <div className={styles.mobileContainer}>
         <SwiperCards
           bulletClass="swiper-pagination-bullet-sm"
           swiperName={name}
-          className="flex justify-center mt-4"
+          className={styles.wrapper}
         >
           {cards.map((child, index) => (
-            <SwiperSlide key={index} className={"h-auto"}>
+            <SwiperSlide key={index} className={styles.slide}>
               {child}
             </SwiperSlide>
           ))}
