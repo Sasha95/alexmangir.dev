@@ -1,21 +1,27 @@
 import { CardContainer } from "@/components/card-container/CardContainer";
 import { Card } from "@/components/card/Card";
 import siteMetadata from "@/data/siteMetadata";
-import { ToolboxItem } from "../toolbox-items/ToolboxItem";
+import Image from "next/image";
 import styles from "./cards.module.scss";
+
+import VSCode from "../../../public/assets/vscode.svg";
+import Typescript from "../../../public/assets/ts.svg";
+import Prettier from "../../../public/assets/prettier.svg";
+import Resume from "../../../public/assets/resume.svg";
+import About from "../../../public/assets/about.svg";
 
 const toolboxItems = [
   {
     alt: "vs code",
-    src: siteMetadata.vscode,
+    src: VSCode,
   },
   {
     alt: "typescript",
-    src: siteMetadata.ts,
+    src: Typescript,
   },
   {
     alt: "prettier",
-    src: siteMetadata.prettier,
+    src: Prettier,
   },
 ];
 
@@ -28,30 +34,21 @@ export const Cards = () => {
           <Card title="TOOLBOX" key={0}>
             <div className={styles.toolboxContainer}>
               {toolboxItems.map((item, index) => (
-                <div key={index}>
-                  <ToolboxItem
-                    alt={item.alt}
-                    src={item.src}
-                    className={"relative"}
-                  />
-                </div>
+                <Image
+                  alt={item.alt}
+                  src={item.src}
+                  key={index}
+                  className={styles.toolboxImg}
+                />
               ))}
             </div>
             <p className={styles.text}>Here`s what I use daily</p>
           </Card>,
           <Card title="RESUME" key={1}>
-            <ToolboxItem
-              alt="resume"
-              src={siteMetadata.resumeImg}
-              className={styles.toolbox}
-            />
+            <Image alt="resume" src={Resume} className={styles.img} />
           </Card>,
           <Card title="ABOUT ME" key={3}>
-            <ToolboxItem
-              alt="about me"
-              src={siteMetadata.about}
-              className={styles.toolbox}
-            />
+            <Image alt="about me" src={About} className={styles.img} />
           </Card>,
         ]}
       />

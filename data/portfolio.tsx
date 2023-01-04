@@ -1,5 +1,8 @@
-import siteMetadata from "./siteMetadata";
 import { workExperience } from "./work-experience";
+
+import IHelp from "../public/assets/ihelp.svg";
+import Dex from "../public/assets/dex.svg";
+import Wisent from "../public/assets/wisent.svg";
 
 export const portfolio = [
   {
@@ -10,7 +13,7 @@ export const portfolio = [
         <br /> Chisinau, Moldova
       </>
     ),
-    companySrc: siteMetadata.wisent,
+    companySrc: Wisent,
     projects: workExperience.wisent,
   },
   {
@@ -22,7 +25,7 @@ export const portfolio = [
         Tiraspol, Moldova
       </>
     ),
-    companySrc: siteMetadata.dex,
+    companySrc: Dex,
     projects: workExperience.dex,
   },
   {
@@ -33,7 +36,7 @@ export const portfolio = [
         <br /> Tiraspol, Moldova
       </>
     ),
-    companySrc: siteMetadata.ihelp,
+    companySrc: IHelp,
     projects: workExperience.ihelp,
   },
 ];

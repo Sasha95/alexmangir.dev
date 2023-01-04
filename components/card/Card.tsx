@@ -1,26 +1,16 @@
-import classNames from "classnames";
 import { ReactNode } from "react";
+import styles from "./card.module.scss";
 
 type Props = {
   children: ReactNode;
   title: string;
-  className?: string;
 };
-export const Card = ({ children, title, className }: Props) => {
+export const Card = ({ children, title }: Props) => {
   return (
-    <div
-      className={classNames(
-        "bg-white rounded-lg shadow-[0px_0px_17px_rgba(0,0,0,0.17)] rad pt-7 pb-6 sm:pt-9 sm:pb-6 md:py-3 w-full h-full md:h-auto flex flex-col justify-between items-center relative",
-        className
-      )}
-    >
-      <h2 className="text-3xl md:text-xl lg:text-2xl xl:text-3xl xs:leading-10 font-medium">
-        {title}
-      </h2>
+    <div className={styles.container}>
+      <h2 className={styles.title}>{title}</h2>
       {children}
-      <button className="rounded-lg bg-cornflower p-3 md:p-2 xl:py-3 xl:px-3.5 font-semibold text-white cursor-pointer text-xs md:text-[10px] hover:bg-blue mt-1.5">
-        Click to see more
-      </button>
+      <button className={styles.btn}>Click to see more</button>
     </div>
   );
 };

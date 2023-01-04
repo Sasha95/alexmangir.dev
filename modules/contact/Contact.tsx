@@ -10,7 +10,11 @@ import Facebook from "../../public/assets/facebook.svg";
 export const Contact = () => {
   return (
     <div className={styles.container}>
-      <Caption title1={"Contact"} title2={"Me"} />
+      <Caption
+        title1={"Contact"}
+        title2={"Me"}
+        className={styles.titleContainer}
+      />
       <div className={styles.wrapper}>
         <ContactItem href={siteMetadata.github} src={Github} title={"Github"} />
         <ContactItem

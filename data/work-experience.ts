@@ -1,33 +1,42 @@
-import siteMetadata from "./siteMetadata";
+import React from "../public/assets/react.svg";
+import Sharp from "../public/assets/sharp.svg";
+import Everact from "../public/assets/everact.svg";
+import Dex from "../public/assets/dex.svg";
+import Samocat from "../public/assets/samocat.svg";
+import Luxxy from "../public/assets/luxxy.svg";
+import Nokia from "../public/assets/nokia.svg";
+import Pik from "../public/assets/pik.svg";
+import Corridor from "../public/assets/corridor.svg";
+import Crm from "../public/assets/crm.svg";
 
 export const workPositions = {
   react: {
     title: "React Engineer",
-    src: siteMetadata.react,
+    src: React,
   },
   reactMiddle: {
     title: "React Engineer Middle",
-    src: siteMetadata.react,
+    src: React,
   },
   reactSenior: {
     title: "React Engineer Senior",
-    src: siteMetadata.react,
+    src: React,
   },
   reactNative: {
     title: "React Native Engineer",
-    src: siteMetadata.react,
+    src: React,
   },
   reactNativeMiddle: {
     title: "React Native Engineer Middle",
-    src: siteMetadata.react,
+    src: React,
   },
   sharp: {
     title: "C# Engineer",
-    src: siteMetadata.sharp,
+    src: Sharp,
   },
   asp: {
     title: "ASP NET Developer",
-    src: siteMetadata.sharp,
+    src: Sharp,
   },
 };
 
@@ -35,7 +44,7 @@ export const workExperience = {
   wisent: [
     {
       title: "Everact.io",
-      src: siteMetadata.everact,
+      src: Everact,
       description: "https://everact.io",
       position: workPositions.reactSenior,
     },
@@ -43,40 +52,40 @@ export const workExperience = {
   dex: [
     {
       title: "DEX job",
-      src: siteMetadata.dex,
+      src: Dex,
       description: "https://job.dex-it.ru",
       position: workPositions.react,
     },
     {
       title: "Samocat Sharing",
-      src: siteMetadata.samocat,
+      src: Samocat,
       position: workPositions.reactNative,
     },
     {
       title: "Luxxy",
-      src: siteMetadata.luxxy,
+      src: Luxxy,
       position: workPositions.reactNativeMiddle,
     },
     {
       title: "Nokia",
-      src: siteMetadata.nokia,
+      src: Nokia,
       position: workPositions.reactMiddle,
     },
     {
       title: "PIK",
-      src: siteMetadata.pik,
+      src: Pik,
       position: workPositions.reactMiddle,
     },
   ],
   ihelp: [
     {
       title: "Corridor",
-      src: siteMetadata.corridor,
+      src: Corridor,
       position: workPositions.react,
     },
     {
       title: "CRMWhatsApp",
-      src: siteMetadata.crmWhatsApp,
+      src: Crm,
       position: workPositions.asp,
     },
   ],

@@ -5,5 +5,5 @@ type Props = {
   children: ReactNode;
 };
 export const MainContainer = ({ children }: Props) => {
-  return <main className={styles.container}>{children}</main>;
+  return <section className={styles.container}>{children}</section>;
 };

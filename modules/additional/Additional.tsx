@@ -16,7 +16,11 @@ export const Additional = () => {
   ));
   return (
     <div className={styles.container}>
-      <Caption title1={"Additional"} title2={"passions"} />
+      <Caption
+        title1={"Additional"}
+        title2={"passions"}
+        className={styles.titleContainer}
+      />
       <CardContainer
         cards={passionCards}
         name="swiper-custom-pagination-additional"

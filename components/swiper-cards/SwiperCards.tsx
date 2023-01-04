@@ -23,7 +23,7 @@ const SwiperElement = ({
   ...props
 }: Props) => {
   return (
-    <div>
+    <>
       <Swiper
         pagination={{
           clickable: true,
@@ -41,7 +41,7 @@ const SwiperElement = ({
         {children}
       </Swiper>
       <div className={classNames(swiperName, className)} />
-    </div>
+    </>
   );
 };
 

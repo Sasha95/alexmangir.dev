@@ -14,7 +14,7 @@ export const ContactItem = ({ title, src, href }: Props) => (
     className={styles.container}
     rel="noreferrer"
   >
-    <Image alt={title} src={src} />
+    <Image alt={title} src={src} className={styles.img} />
     <h2 className={styles.title}>{title}</h2>
   </a>
 );

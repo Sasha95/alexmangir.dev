@@ -14,7 +14,7 @@ export const CardPassion = ({ work, description, image, alt }: Props) => {
       <div className={styles.imgContainer}>
         <Image alt={alt} src={image} className={styles.img} />
       </div>
-      <div className={styles.descriptionContainer}>
+      <div className={styles.caption}>
         <p className={styles.boldText}>{work} &nbsp;</p>
         <p className={styles.text}>Developer</p>
       </div>

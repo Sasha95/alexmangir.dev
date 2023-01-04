@@ -7,7 +7,7 @@ body {
   background-image: url("../public/assets/background.svg");
   background-repeat: no-repeat;
   background-color: $grey;
-  color: $primary-200;
+  color: $primary-600;
 }
 
 a {
@@ -16,4 +16,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-sm {
+  background: rgba(59, 144, 250, 0.5);
+  width: 0.688rem;
+  height: 0.688rem;
+  border-radius: 50%;
+  &:nth-child(odd) {
+    margin: 0 1.25rem;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: $primary-200;
 }

@@ -1,3 +1,5 @@
+@import "styles/colors";
+
 .container {
   margin-top: 3rem;
 }
@@ -7,17 +9,24 @@
   margin-top: 0.625rem;
   justify-content: center;
   width: 100%;
-}
-
-.toolbox {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  .toolboxImg {
+    width: 3.938rem;
+    height: auto;
+    &:nth-child(odd) {
+      margin: 0 2rem;
+    }
+  }
 }
 
 .text {
-  margin-top: 2rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 600;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.055em;
+  color: $primary-100;
+}
+
+.img {
+  margin-bottom: 0.375rem;
 }
