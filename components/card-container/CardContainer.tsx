@@ -22,11 +22,7 @@ export const CardContainer = ({
         ))}
       </div>
       <div className={styles.mobileContainer}>
-        <SwiperCards
-          bulletClass={bulletClass}
-          swiperName={name}
-          className={styles.wrapper}
-        >
+        <SwiperCards bulletClass={bulletClass} swiperName={name}>
           {cards.map((child, index) => (
             <SwiperSlide key={index} className={styles.slide}>
               {child}

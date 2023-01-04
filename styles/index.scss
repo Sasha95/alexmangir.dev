@@ -18,6 +18,12 @@ a {
   box-sizing: border-box;
 }
 
+.swiper-pagination-bullets:has(.swiper-pagination-bullet-sm) {
+  display: flex;
+  margin-top: 1.125rem;
+  justify-content: center;
+}
+
 .swiper-pagination-bullet-sm {
   background: rgba(59, 144, 250, 0.5);
   width: 0.688rem;

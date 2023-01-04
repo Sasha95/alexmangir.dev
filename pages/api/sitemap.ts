@@ -1,12 +1,5 @@
 export default async function handler(req: any, res: any) {
-  const localRoutes = [
-    "/index",
-    "/blog",
-    "/newsletter",
-    "/about",
-    "/projects",
-    "/toolbox",
-  ];
+  const localRoutes = ["/index", "/about", "/toolbox"];
 
   //   const pages = routes.concat(localRoutes);
   const pages = localRoutes;
