@@ -1,9 +1,18 @@
+@import "@styles/media-queries";
+
 .container {
   display: flex;
   margin-top: 1.75rem;
   flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
+  @include md {
+    flex-direction: row;
+    margin-top: 5.625rem;
+  }
+  @include lg {
+    margin-top: 6.25rem;
+  }
 }
 
 .wrapper {
@@ -16,6 +25,13 @@
   line-height: 2.5rem;
   font-weight: normal;
   margin: 0 0 1.75rem 0;
+  @include sm {
+    font-size: 1.875rem;
+  }
+  @include md {
+    font-size: 3.125rem;
+    margin-bottom: 1.125rem;
+  }
 }
 
 .textDescription {
@@ -23,15 +39,26 @@
   line-height: 2rem;
   font-weight: 600;
   margin: 0 0 0.5rem 0;
+  @include sm {
+    font-size: 1.875rem;
+  }
+  @include md {
+    margin-bottom: 1.875rem;
+  }
 }
 
 .textAbout {
   margin-top: 0.5rem;
   margin-bottom: 0;
   font-size: 0.75rem;
-  line-height: 1rem;
-  letter-spacing: 0.05em;
+  line-height: 1.125rem;
+  letter-spacing: 0.015em;
   font-weight: normal;
+  @include sm {
+    font-size: 0.875rem;
+    margin-top: 1.875rem;
+    line-height: 1.313rem;
+  }
 }
 
 .imgContainer {
@@ -42,5 +69,7 @@
   .img {
     width: 100%;
     height: auto;
+    max-width: 31.5rem;
+    max-height: 29.5rem;
   }
 }

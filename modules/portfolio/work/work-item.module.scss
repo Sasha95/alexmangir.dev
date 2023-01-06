@@ -1,4 +1,5 @@
 @import "styles/colors";
+@import "@styles/media-queries";
 
 .container {
   display: grid;
@@ -11,17 +12,30 @@
   row-gap: 1rem;
   height: 100%;
   box-sizing: border-box;
+  @include md {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 2rem 3.125rem;
+    gap: 2.5rem;
+  }
 }
 
 .project {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  @include md {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
 }
 
 .job {
   grid-column-start: 2;
   grid-row-start: 1;
+  @include md {
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
 }
 
 .company {

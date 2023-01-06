@@ -1,6 +1,11 @@
+@import "@styles/media-queries";
+
 .container {
   display: grid;
   row-gap: 0.625rem;
+  @include md {
+    row-gap: 1rem;
+  }
 }
 
 .title {
@@ -9,6 +14,9 @@
   line-height: 1.25rem;
   text-align: center;
   margin: 0;
+  @include md {
+    font-size: 1.5rem;
+  }
 }
 
 .img {

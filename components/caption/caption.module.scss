@@ -1,3 +1,5 @@
+@import "@styles/media-queries";
+
 .container {
   display: flex;
   justify-content: center;
@@ -9,6 +11,9 @@
   line-height: 2rem;
   letter-spacing: 0;
   margin: 0;
+  @include md {
+    font-size: 2.188rem;
+  }
 }
 
 .title1 {

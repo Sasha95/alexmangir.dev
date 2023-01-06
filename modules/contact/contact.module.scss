@@ -1,3 +1,5 @@
+@import "@styles/media-queries";
+
 .container {
   margin-top: 3.5rem;
   margin-bottom: 1.125rem;
@@ -7,8 +9,17 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.25rem;
+  @include md {
+    gap: 5rem;
+  }
 }
 
 .titleContainer {
   margin-bottom: 2.125rem;
+  @include sm {
+    margin-bottom: 1.25rem;
+  }
+  @include md {
+    margin-bottom: 4.0625rem;
+  }
 }

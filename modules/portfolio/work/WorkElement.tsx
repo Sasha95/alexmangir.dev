@@ -32,7 +32,11 @@ const WorkElement = forwardRef<SwiperRef, Props>(
             <SwiperSlide key={index}>
               <div key={index} className={styles.projectContainer}>
                 <div className={styles.projImg}>
-                  <Image alt={item.title} src={item.src} />
+                  <Image
+                    alt={item.title}
+                    src={item.src}
+                    className={styles.img}
+                  />
                 </div>
                 <div>
                   <p className={styles.title}>{item.title}</p>
