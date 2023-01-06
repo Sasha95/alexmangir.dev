@@ -15,7 +15,7 @@ export const Additional = () => {
     />
   ));
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="passion">
       <Caption
         title1={"Additional"}
         title2={"passions"}

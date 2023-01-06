@@ -9,7 +9,7 @@ import Facebook from "public/assets/facebook.svg";
 
 export const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <Caption
         title1={"Contact"}
         title2={"Me"}

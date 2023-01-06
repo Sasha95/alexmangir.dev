@@ -5,8 +5,10 @@ import styles from "./navbar.module.scss";
 export const Navbar = () => {
   return (
     <nav className={styles.container}>
-      <Header />
-      <NavbarDrawer />
+      <div className={styles.main}>
+        <Header />
+        <NavbarDrawer />
+      </div>
     </nav>
   );
 };

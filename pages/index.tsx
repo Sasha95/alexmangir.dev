@@ -11,9 +11,9 @@ import { Portfolio } from "modules/portfolio/Portfolio";
 
 export default function Home() {
   return (
-    <>
+    <div>
+      <Navbar />
       <MainContainer>
-        <Navbar />
         <MainContent />
         <Additional />
         <Education />
@@ -22,6 +22,6 @@ export default function Home() {
         <Contact />
       </MainContainer>
       <Footer />
-    </>
+    </div>
   );
 }

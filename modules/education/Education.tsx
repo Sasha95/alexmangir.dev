@@ -4,7 +4,7 @@ import styles from "./education.module.scss";
 
 export const Education = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="portfolio">
       <Caption title1={"My"} title2={"Portfolio"} />
       <div className={styles.history}>
         <EducationHistory />

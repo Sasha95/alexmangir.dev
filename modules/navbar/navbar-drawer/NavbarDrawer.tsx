@@ -6,14 +6,20 @@ import Hamburger from "public/assets/hamburger.svg";
 
 export const NavbarDrawer = () => {
   const [isOpen, setOpen] = useState(false);
+  const onClose = () => setOpen(false);
   return (
     <>
       <Drawer isOpen={isOpen} setOpen={setOpen}>
-        <div>
-          <h2 className={styles.text}>About</h2>
-          <h2 className={styles.text}>Passions</h2>
-          <h2 className={styles.text}>Portfolio</h2>
-          <h2 className={styles.text}>Contact me</h2>
+        <div className={styles.container}>
+          <a className={styles.text} href="#passion" onClick={onClose}>
+            Passions
+          </a>
+          <a className={styles.text} href="#portfolio" onClick={onClose}>
+            Portfolio
+          </a>
+          <a className={styles.text} href="#contact" onClick={onClose}>
+            Contact me
+          </a>
         </div>
       </Drawer>
       <Image

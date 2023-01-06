@@ -9,6 +9,8 @@ body {
   background-repeat: no-repeat;
   background-color: $grey;
   color: $primary-600;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 a {
@@ -104,4 +106,10 @@ a {
 
 .swiper-pagination-bullet-active {
   background: $primary-200;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
