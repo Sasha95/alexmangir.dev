@@ -21,6 +21,14 @@
       @include md {
         font-size: 1.75rem;
         text-align: left;
+        margin: 1.5rem 0 1.25rem 0;
+      }
+      @include lg {
+        font-size: 1.875rem;
+        margin: 1.875rem 0;
+      }
+      @include xl {
+        margin: 3.75rem 0 1.875rem 0;
       }
     }
     .universityName {
@@ -30,6 +38,9 @@
       line-height: 1rem;
       @include md {
         font-size: 1.5rem;
+      }
+      @include lg {
+        line-height: 1.5rem;
       }
     }
     .describe {
@@ -43,6 +54,10 @@
         font-size: 0.875rem;
         margin-top: 0.875rem;
       }
+      @include lg {
+        font-size: 1rem;
+        margin-top: 1.25rem;
+      }
     }
     .years {
       font-size: 0.625rem;
@@ -54,6 +69,10 @@
       }
       @include md {
         margin-top: 0.625rem;
+      }
+      @include lg {
+        font-size: 0.875rem;
+        margin-top: 0.875rem;
       }
     }
   }
@@ -69,9 +88,13 @@
     height: auto;
     max-width: 15rem;
     max-height: 14.75rem;
-    @include md {
+    @include lg {
       max-width: 21.875rem;
       max-height: 20.75rem;
+    }
+    @include xl {
+      max-width: 33.125rem;
+      max-height: 33.125rem;
     }
   }
   @include md {

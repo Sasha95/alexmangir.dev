@@ -11,8 +11,8 @@ const siteMetadata = {
   twitter: "https://twitter.com/css_prime",
   twitterHandle: "@css_prime",
   codepen: "https://codepen.io/alexmangir",
-  linkedin: "https://www.linkedin.com/in/alexmag/",
-  facebook: "https://www.facebook.com/alex.mangir.3/",
+  linkedin: "https://www.linkedin.com/in/alexmag",
+  facebook: "https://www.facebook.com/alex.mangir.3",
   newsletter: "https://www.getrevue.co/profile/alexmangir",
   resume: "/static/mangir_resume.pdf",
   snippets:

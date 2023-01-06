@@ -5,8 +5,14 @@
   @include sm {
     margin-top: 4.188rem;
   }
+  @include lg {
+    margin-top: 6.25rem;
+  }
 }
 
 .titleContainer {
   margin-bottom: 2.5rem;
+  @include lg {
+    margin-bottom: 3.75rem;
+  }
 }

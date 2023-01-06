@@ -18,6 +18,17 @@
     font-weight: 600;
     margin-bottom: 2.25rem;
   }
+  @include lg {
+    margin-bottom: 8.125rem;
+    font-size: 1.875rem;
+    margin-top: 6.25rem;
+  }
+  @include xl {
+    margin-bottom: 3.75rem;
+    font-size: 1.875rem;
+    text-align: left;
+    margin-top: 12.5rem;
+  }
 }
 
 .slide {

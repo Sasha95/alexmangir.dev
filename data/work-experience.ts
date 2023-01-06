@@ -6,7 +6,7 @@ import Samocat from "public/assets/samocat.svg";
 import Luxxy from "public/assets/luxxy.svg";
 import Nokia from "public/assets/nokia.svg";
 import Pik from "public/assets/pik.svg";
-import Corridor from "public/assets/corridor.svg";
+import Corridor from "public/assets/corridor.png";
 import Crm from "public/assets/crm.svg";
 
 export const workPositions = {

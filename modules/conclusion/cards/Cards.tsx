@@ -28,6 +28,7 @@ export const Cards = () => {
   return (
     <div className={styles.container}>
       <CardContainer
+        className={styles.conclusionContainer}
         name="swiper-custom-pagination-cards"
         cards={[
           <Card title="TOOLBOX" key={0}>

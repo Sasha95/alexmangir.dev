@@ -3,8 +3,12 @@
 .container {
   display: grid;
   row-gap: 0.625rem;
+  justify-content: center;
   @include md {
     row-gap: 1rem;
+  }
+  @include xl {
+    row-gap: 1.875rem;
   }
 }
 
@@ -17,9 +21,22 @@
   @include md {
     font-size: 1.5rem;
   }
+  @include lg {
+    line-height: 2.375rem;
+    font-size: 1.5rem;
+  }
+  @include xl {
+    font-size: 2.25rem;
+  }
 }
 
 .img {
   width: 100%;
   height: auto;
+  @include lg {
+    max-width: 8.25rem;
+  }
+  @include xl {
+    max-width: 10.375rem;
+  }
 }

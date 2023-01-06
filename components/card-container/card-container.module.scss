@@ -9,6 +9,12 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.75rem;
   }
+  @include lg {
+    gap: 0.875rem;
+  }
+  @include xl {
+    gap: 3.25rem;
+  }
 }
 
 .mobileContainer {

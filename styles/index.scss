@@ -26,6 +26,38 @@ a {
   @include md {
     margin-top: 1.5rem;
   }
+  @include lg {
+    margin-top: 4.5rem;
+  }
+  @include xl {
+    margin-top: 1.875rem;
+  }
+}
+
+.swiper-button-next {
+  background-image: url("../public/assets/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transform: translateX(0.625rem);
+}
+
+.swiper-button-prev {
+  background-image: url("../public/assets/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transform: rotate(180deg) translateX(0.625rem);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 44% !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
 }
 
 .swiper-pagination-bullet-sm {

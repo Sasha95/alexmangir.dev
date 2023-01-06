@@ -12,6 +12,12 @@
   @include md {
     padding: 1.25rem 1.375rem 1.375rem 1rem;
   }
+  @include lg {
+    padding: 1.875rem 1.375rem 1.375rem 1.25rem;
+  }
+  @include xl {
+    padding: 1.25rem;
+  }
 }
 
 .imgContainer {
@@ -26,7 +32,15 @@
     height: auto;
     width: 100%;
     @include md {
-      width: auto;
+      width: 100%;
+      max-width: 7rem;
+    }
+    @include lg {
+      width: 100%;
+      max-width: 9.375rem;
+    }
+    @include xl {
+      max-width: 14.5rem;
     }
   }
 }
@@ -38,6 +52,12 @@
   @include md {
     font-size: 0.875rem;
   }
+  @include lg {
+    font-size: 1rem;
+  }
+  @include xl {
+    font-size: 1.5rem;
+  }
 }
 
 .boldText {
@@ -48,6 +68,9 @@
 .caption {
   display: flex;
   margin-top: 0.625rem;
+  @include xl {
+    margin-top: 0.875rem;
+  }
 }
 .description {
   font-size: 1rem;
@@ -60,5 +83,12 @@
   @include md {
     font-size: 0.75rem;
     margin-top: 0;
+  }
+  @include lg {
+    font-size: 0.875rem;
+  }
+  @include xl {
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
   }
 }

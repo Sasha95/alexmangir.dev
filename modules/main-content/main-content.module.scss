@@ -13,6 +13,9 @@
   @include lg {
     margin-top: 6.25rem;
   }
+  @include xl {
+    margin-top: 3.75rem;
+  }
 }
 
 .wrapper {
@@ -45,6 +48,11 @@
   @include md {
     margin-bottom: 1.875rem;
   }
+  @include lg {
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+    line-height: 3rem;
+  }
 }
 
 .textAbout {
@@ -58,6 +66,10 @@
     font-size: 0.875rem;
     margin-top: 1.875rem;
     line-height: 1.313rem;
+  }
+  @include lg {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
   }
 }
 

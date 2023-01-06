@@ -3,6 +3,9 @@
 .container {
   margin-top: 3.5rem;
   margin-bottom: 1.125rem;
+  @include lg {
+    margin-top: 6.25rem;
+  }
 }
 
 .wrapper {
@@ -11,6 +14,9 @@
   gap: 1.25rem;
   @include md {
     gap: 5rem;
+  }
+  @include lg {
+    gap: 6rem;
   }
 }
 

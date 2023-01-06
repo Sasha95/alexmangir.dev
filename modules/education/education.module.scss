@@ -1,5 +1,10 @@
+@import "@styles/media-queries";
+
 .container {
   margin-top: 3.5rem;
+  @include lg {
+    margin-top: 6.25rem;
+  }
 }
 
 .history {

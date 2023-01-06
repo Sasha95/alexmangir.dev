@@ -19,6 +19,13 @@
   }
   @include md {
     font-size: 1.375rem;
+    line-height: 2.75rem;
+  }
+  @include lg {
+    font-size: 1.75rem;
+  }
+  @include xl {
+    font-size: 1.875rem;
   }
 }
 
@@ -31,15 +38,23 @@
     display: flex;
     overflow: hidden;
     position: relative;
+    justify-content: center;
     line-height: 1.688rem;
     width: 100%;
+    max-width: 8.5rem;
+    @include md {
+      max-width: 10.375rem;
+      margin: 2rem 0;
+    }
+    @include lg {
+      max-width: 13.25rem;
+    }
+    @include xl {
+      max-width: 15.625rem;
+    }
     .img {
       width: 100%;
       height: auto;
-    }
-
-    @include md {
-      margin: 2.25rem 0;
     }
   }
   .title {
@@ -50,6 +65,9 @@
     @include md {
       font-size: 1.125rem;
       line-height: 1.75rem;
+    }
+    @include lg {
+      font-size: 1.5rem;
     }
   }
   .description {
@@ -62,6 +80,9 @@
     @include md {
       font-size: 0.75rem;
       line-height: 1rem;
+    }
+    @include lg {
+      font-size: 0.875rem;
     }
   }
 }

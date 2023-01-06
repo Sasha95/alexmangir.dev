@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { Fragment, ReactNode } from "react";
 import { SwiperSlide } from "swiper/react";
 import { SwiperCards } from "../swiper-cards/SwiperCards";
@@ -7,16 +8,18 @@ type Props = {
   cards: ReactNode[];
   name: string;
   bulletClass?: string;
+  className?: string;
 };
 
 export const CardContainer = ({
   cards,
   name,
+  className,
   bulletClass = "swiper-pagination-bullet-sm",
 }: Props) => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={classNames(styles.container, className)}>
         {cards.map((child, index) => (
           <Fragment key={index}>{child}</Fragment>
         ))}
