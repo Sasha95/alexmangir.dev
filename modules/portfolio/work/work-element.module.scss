@@ -3,6 +3,12 @@
 .container {
   display: flex;
   flex-direction: column;
+  @include md {
+    margin: 0 -2.5rem;
+  }
+  @include lg {
+    margin: 0 -2rem;
+  }
 }
 
 .swiperContainer {
