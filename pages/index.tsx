@@ -1,4 +1,3 @@
-import { Container } from "layouts/Container";
 import { Footer } from "modules/footer/Footer";
 import { Additional } from "modules/additional/Additional";
 import { Cards } from "modules/conclusion/cards/Cards";

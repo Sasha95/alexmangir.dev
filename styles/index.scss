@@ -10,11 +10,14 @@ body {
   background-color: $grey;
   color: $primary-600;
   scroll-behavior: smooth;
-  scroll-padding-top: 10rem;
+  scroll-padding-top: 8rem;
 }
 
 a {
   text-decoration: none;
+  &:visited {
+    color: unset;
+  }
 }
 
 * {
