@@ -13,7 +13,7 @@ export const Toggle = ({ className }: Props) => {
   const { theme, setTheme } = useTheme();
 
   const onSelectTheme = () => {
-    if (theme === "light") {
+    if (theme === "light" || theme === "system") {
       setTheme("dark");
     } else {
       setTheme("light");
@@ -22,12 +22,7 @@ export const Toggle = ({ className }: Props) => {
 
   return (
     <div className={classNames(styles.container, className)}>
-      <input
-        id="check"
-        type="checkbox"
-        onChange={onSelectTheme}
-        defaultChecked={theme === "dark"}
-      />
+      <input id="check" type="checkbox" onChange={onSelectTheme} />
       <label htmlFor="check" className={styles.checkTrail}>
         <span className={styles.checkHandler}>
           <Image alt="moon" src={Moon} className={styles.moon} />
