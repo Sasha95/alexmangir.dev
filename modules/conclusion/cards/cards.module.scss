@@ -86,6 +86,9 @@
     margin-bottom: 0.875rem;
   }
 }
+[data-theme="dark"] .text {
+  color: $white;
+}
 
 .img {
   margin-bottom: 0.375rem;

@@ -1,8 +1,13 @@
 @import "@styles/media-queries";
+@import "@styles/colors";
 
 .container {
   display: flex;
   flex-direction: column;
+  background-color: $grey;
+}
+[data-theme="dark"] .container {
+  background-color: $grey-700;
 }
 .iconDrawer {
   display: block;

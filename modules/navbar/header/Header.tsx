@@ -1,3 +1,4 @@
+import { Toggle } from "@/components/toggle/Toggle";
 import styles from "./header.module.scss";
 
 export const Header = () => {
@@ -8,6 +9,7 @@ export const Header = () => {
         <h2 className={styles.secondText}>mangir</h2>
       </a>
       <div className={styles.navbarContainer}>
+        <Toggle className={styles.title} />
         <a className={styles.title} href="#passion">
           Passions
         </a>

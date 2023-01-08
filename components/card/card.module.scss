@@ -24,6 +24,9 @@
     padding: 1.625rem 1.25rem 1.5rem 1.25rem;
   }
 }
+[data-theme="dark"] .container {
+  background: $primary-200;
+}
 
 .title {
   font-size: 1.75rem;
@@ -55,7 +58,10 @@
   border: none;
   cursor: pointer;
   &:hover {
-    background: $primary-200;
+    background: $primary-400;
+  }
+  &:visited {
+    color: $white;
   }
   @include md {
     font-size: 0.5rem;

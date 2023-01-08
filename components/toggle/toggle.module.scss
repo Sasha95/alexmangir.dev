@@ -1,0 +1,74 @@
+@import "styles/colors";
+@import "styles/media-queries";
+
+$transition: all 0.5s ease;
+
+.container {
+  user-select: none;
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .checkTrail {
+    display: flex;
+    align-items: center;
+    width: 2.5625rem;
+    height: 1.125rem;
+    background: $primary-100;
+    border-radius: 1.25rem;
+    transition: $transition;
+    cursor: pointer;
+    @include md {
+      width: 3.9375rem;
+      height: 1.75rem;
+    }
+
+    @include xl {
+      width: 5.3125rem;
+      height: 2.375rem;
+    }
+  }
+  .checkHandler {
+    display: flex;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 0.625rem;
+    height: 0.625rem;
+    background: $white;
+    border-radius: 50%;
+    transition: $transition;
+    @include md {
+      width: 1.0625rem;
+      height: 1.0625rem;
+    }
+    @include xl {
+      width: 1.4375rem;
+      height: 1.4375rem;
+      margin-left: 0.75rem;
+    }
+
+    .moon {
+      display: none;
+    }
+    .sun {
+      display: block;
+    }
+  }
+  input[type="checkbox"]:checked + .checkTrail {
+    background: $primary-300;
+    .checkHandler {
+      margin-left: calc(100% - 1.5rem);
+      .moon {
+        display: block;
+      }
+      .sun {
+        display: none;
+      }
+      @include xl {
+        margin-left: calc(100% - 2.125rem);
+      }
+    }
+  }
+}

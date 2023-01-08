@@ -19,6 +19,10 @@
   }
 }
 
+[data-theme="dark"] .container {
+  background: $primary-200;
+}
+
 .project {
   grid-row-start: 2;
   grid-column-start: 1;

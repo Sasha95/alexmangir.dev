@@ -8,6 +8,7 @@ import Typescript from "public/assets/ts.svg";
 import Prettier from "public/assets/prettier.svg";
 import Resume from "public/assets/resume.svg";
 import About from "public/assets/about.svg";
+import siteMetadata from "@/data/siteMetadata";
 
 const toolboxItems = [
   {
@@ -31,7 +32,7 @@ export const Cards = () => {
         className={styles.conclusionContainer}
         name="swiper-custom-pagination-cards"
         cards={[
-          <Card title="TOOLBOX" key={0}>
+          <Card title="TOOLBOX" key={0} link={siteMetadata.toolbox}>
             <div className={styles.toolboxContainer}>
               {toolboxItems.map((item, index) => (
                 <Image
@@ -44,10 +45,10 @@ export const Cards = () => {
             </div>
             <p className={styles.text}>Here`s what I use daily</p>
           </Card>,
-          <Card title="RESUME" key={1}>
+          <Card title="RESUME" key={1} link={siteMetadata.resume}>
             <Image alt="resume" src={Resume} className={styles.img} />
           </Card>,
-          <Card title="ABOUT ME" key={3}>
+          <Card title="ABOUT ME" key={3} link={siteMetadata.about}>
             <Image alt="about me" src={About} className={styles.img} />
           </Card>,
         ]}

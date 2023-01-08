@@ -1,7 +1,6 @@
 @import "@styles/colors";
 @import "@styles/media-queries";
 
-html,
 body {
   padding: 0;
   margin: 0;
@@ -11,6 +10,11 @@ body {
   color: $primary-600;
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
+}
+
+[data-theme="dark"] body {
+  background-color: $grey-700;
+  color: $white;
 }
 
 a {
@@ -108,7 +112,10 @@ a {
 }
 
 .swiper-pagination-bullet-active {
-  background: $primary-200;
+  background: $primary-400;
+}
+[data-theme="dark"] .swiper-pagination-bullet-active {
+  background: $white;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

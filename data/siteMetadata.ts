@@ -14,9 +14,10 @@ const siteMetadata = {
   linkedin: "https://www.linkedin.com/in/alexmag",
   facebook: "https://www.facebook.com/alex.mangir.3",
   newsletter: "https://www.getrevue.co/profile/alexmangir",
-  resume: "/static/mangir_resume.pdf",
-  snippets:
-    "https://www.notion.so/9f35162787e0448094188b66304cf9f6?v=1b9c4e146edf46148fe7b1c5346cbea4",
+  resume:
+    "https://docs.google.com/document/d/16wlcVGMagJ9HYyEqgjeke1eMlYskErmHKkyFeZ-FGn4/edit",
+  toolbox: "toolbox",
+  about: "about",
   locale: "en-US",
   analytics: {
     plausibleDataDomain: "alexmangir.dev",

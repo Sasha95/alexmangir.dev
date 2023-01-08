@@ -34,7 +34,7 @@
     font-weight: normal;
     cursor: pointer;
     &:hover {
-      color: $primary-200;
+      color: $primary-400;
     }
     @include md {
       font-size: 1.25rem;
@@ -60,7 +60,7 @@
     background: $primary-100;
     border: none;
     &:hover {
-      background: $primary-200;
+      background: $primary-400;
     }
     @include lg {
       padding: 0.625rem 1.125rem;

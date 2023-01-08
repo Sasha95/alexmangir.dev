@@ -20,6 +20,10 @@
   }
 }
 
+[data-theme="dark"] .container {
+  background: $primary-200;
+}
+
 .imgContainer {
   position: relative;
   width: 100%;

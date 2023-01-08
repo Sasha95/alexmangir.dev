@@ -8,19 +8,19 @@ import { MainContent } from "modules/main-content/MainContent";
 import { Navbar } from "modules/navbar/Navbar";
 import { Portfolio } from "modules/portfolio/Portfolio";
 
-export default function Home() {
-  return (
-    <div>
-      <Navbar />
-      <MainContainer>
-        <MainContent />
-        <Additional />
-        <Education />
-        <Portfolio />
-        <Cards />
-        <Contact />
-      </MainContainer>
-      <Footer />
-    </div>
-  );
-}
+const Main = () => (
+  <>
+    <Navbar />
+    <MainContainer>
+      <MainContent />
+      <Additional />
+      <Education />
+      <Portfolio />
+      <Cards />
+      <Contact />
+    </MainContainer>
+    <Footer />
+  </>
+);
+
+export default Main;
