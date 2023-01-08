@@ -1,6 +1,14 @@
 .container {
   position: relative;
   .img {
-    height: auto !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .copyright {
+    margin: 0;
+    position: absolute;
+    right: 8.125rem;
+    bottom: 1.875rem;
   }
 }

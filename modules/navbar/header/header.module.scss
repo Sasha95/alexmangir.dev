@@ -57,10 +57,10 @@
     font-weight: 600;
     border-radius: 0.5rem;
     cursor: pointer;
-    background: $primary-100;
+    background: $primary-500;
     border: none;
     &:hover {
-      background: $primary-400;
+      background: $primary-300;
     }
     @include lg {
       padding: 0.625rem 1.125rem;

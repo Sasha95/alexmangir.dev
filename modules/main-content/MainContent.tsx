@@ -2,8 +2,11 @@ import siteMetadata from "@/data/siteMetadata";
 import Image from "next/image";
 import styles from "./main-content.module.scss";
 import mainImg from "public/assets/main_img.svg";
+import mainImgDark from "public/assets/main_img-dark.svg";
+import { useImageTheme } from "hooks/use-image-theme";
 
 export const MainContent = () => {
+  const src = useImageTheme(mainImg, mainImgDark);
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -15,12 +18,7 @@ export const MainContent = () => {
         </h4>
       </div>
       <div className={styles.imgContainer}>
-        <Image
-          src={mainImg}
-          alt={"main image"}
-          className={styles.img}
-          priority
-        />
+        <Image src={src} alt={"main image"} className={styles.img} priority />
       </div>
     </div>
   );

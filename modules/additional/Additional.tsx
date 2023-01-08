@@ -11,6 +11,7 @@ export const Additional = () => {
       alt={pass.alt}
       description={pass.description}
       work={pass.work}
+      imageDark={pass.darkImage}
       image={pass.image}
     />
   ));

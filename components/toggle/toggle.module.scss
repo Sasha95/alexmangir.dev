@@ -15,7 +15,7 @@ $transition: all 0.5s ease;
     align-items: center;
     width: 2.5625rem;
     height: 1.125rem;
-    background: $primary-100;
+    background: $primary-500;
     border-radius: 1.25rem;
     transition: $transition;
     cursor: pointer;
@@ -57,7 +57,7 @@ $transition: all 0.5s ease;
     }
   }
   input[type="checkbox"]:checked + .checkTrail {
-    background: $primary-300;
+    background: $primary-100;
     .checkHandler {
       margin-left: calc(100% - 1.5rem);
       .moon {
