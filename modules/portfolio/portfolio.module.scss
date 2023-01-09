@@ -2,7 +2,7 @@
 
 .container {
   margin-bottom: 1.75rem;
-  margin-top: 3.5rem;
+  margin-top: 3.125rem;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 0;
@@ -16,7 +16,8 @@
   @include md {
     font-size: 1.875rem;
     font-weight: 600;
-    margin-bottom: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.875rem;
   }
   @include lg {
     margin-bottom: 8.125rem;

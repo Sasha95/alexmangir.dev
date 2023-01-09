@@ -21,7 +21,7 @@
       @include md {
         font-size: 1.75rem;
         text-align: left;
-        margin: 1.5rem 0 1.25rem 0;
+        margin: 1.25rem 0;
       }
       @include lg {
         font-size: 1.875rem;
@@ -35,7 +35,7 @@
       margin: 0;
       font-size: 0.875rem;
       font-weight: 500;
-      line-height: 1rem;
+      line-height: 2rem;
       @include md {
         font-size: 1.5rem;
       }
@@ -47,12 +47,13 @@
       margin-top: 0.625rem;
       margin-bottom: 0;
       font-size: 0.625rem;
+      line-height: 1.125rem;
       @include sm {
         font-size: 0.75rem;
       }
       @include md {
         font-size: 0.875rem;
-        margin-top: 0.875rem;
+        margin-top: 1rem;
       }
       @include lg {
         font-size: 1rem;
@@ -64,11 +65,12 @@
       margin-top: 0.5rem;
       margin-bottom: 0;
       font-weight: 500;
+      line-height: 1rem;
       @include sm {
         font-size: 0.75rem;
       }
       @include md {
-        margin-top: 0.625rem;
+        margin-top: 0.75rem;
       }
       @include lg {
         font-size: 0.875rem;
@@ -120,7 +122,7 @@
   position: absolute;
   top: 0;
   left: 0.25rem;
-  bottom: -1rem;
+  bottom: 0;
   width: 0.063rem;
 }
 
@@ -142,7 +144,7 @@
   @include md {
     width: 1rem;
     left: -0.25rem;
-    top: 0;
+    top: 0.5rem;
     height: 1rem;
   }
 }

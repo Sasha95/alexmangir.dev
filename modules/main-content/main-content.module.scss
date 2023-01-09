@@ -8,7 +8,7 @@
   align-items: center;
   @include md {
     flex-direction: row;
-    margin-top: 5.625rem;
+    margin-top: 5rem;
   }
   @include lg {
     margin-top: 6.25rem;
@@ -27,13 +27,13 @@
   font-size: 1.75rem;
   line-height: 2.5rem;
   font-weight: normal;
-  margin: 0 0 1.75rem 0;
+  margin: 0 0 1rem 0;
   @include sm {
     font-size: 1.875rem;
   }
   @include md {
     font-size: 3.125rem;
-    margin-bottom: 1.125rem;
+    margin-bottom: 1;
   }
 }
 
@@ -45,12 +45,8 @@
   @include sm {
     font-size: 1.875rem;
   }
-  @include md {
-    margin-bottom: 1.875rem;
-  }
   @include lg {
     font-size: 2.25rem;
-    margin-bottom: 2.5rem;
     line-height: 3rem;
   }
 }
@@ -64,8 +60,8 @@
   font-weight: normal;
   @include sm {
     font-size: 0.875rem;
-    margin-top: 1.875rem;
-    line-height: 1.313rem;
+    margin-top: 1.25rem;
+    line-height: 1.25rem;
   }
   @include lg {
     font-size: 1.5rem;

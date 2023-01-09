@@ -3,7 +3,7 @@
 .container {
   margin-top: 3.75rem;
   @include sm {
-    margin-top: 4.188rem;
+    margin-top: 5rem;
   }
   @include lg {
     margin-top: 6.25rem;
@@ -11,7 +11,7 @@
 }
 
 .titleContainer {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.625rem;
   @include lg {
     margin-bottom: 3.75rem;
   }
